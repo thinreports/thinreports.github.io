@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>事例 › 領収書作成サービス「Misoca の Web領収書」by スタンドファーム株式会社 | ThinReports - 帳票ソリューション for Ruby and Rails</title>
+    <link rel="alternate" type="application/atom+xml" title="Atom" href="/news/feed.xml">
+    
+<meta property="og:title" content="事例 › 領収書作成サービス「Misoca の Web領収書」by スタンドファーム株式会社 | ThinReports">
+<meta property="og:type" content="article">
+<meta property="og:description" content="オンラインで簡単に領収書や領収書のひな形を作成したい人向けのサービスです。領収書の情報を入力してボタンを押すだけで、領収書のPDFをすぐにダウンロードできます。個別作成・ひな形作成・Excel一括作成と利用状況に合わせて作成方法を選択できます。ブラウザで完結し、入力データはサーバに保存されないので、セキュリティ的にも安心です。">
+<meta property="og:url" content="http://www.thinreports.org/case/3/">
+<meta property="og:image" content="http://www.thinreports.org/assets/images/case/3/screenshot.png">
+<meta property="og:site_name" content="ThinReports - 帳票ソリューション for Ruby and Rails">
+<meta property="fb:admins" content="100001000444231">
+
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" media="all">
+    
+    <script type="text/javascript" src="/assets/javascript/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-19321975-2']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <meta name="google-translate-customization" content="42ed873f8f1dc374-e7eb180f333a5c2a-g116caa56e8142ce9-13"></meta>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=224790820998167&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <div id="container" class="container">
+      <div id="github-ribbon">
+        <a href="https://github.com/thinreports">
+  <img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png">
+</a>
+
+      </div>
+      <div id="header">
+        <h1><a href="/"><img src="/assets/images/thinreports-logo.png" alt="Open Source Reporting Solution - ThinReports"></a></h1>
+
+
+      </div>
+      <div id="main" class="clearfix">
+        <div id="side" class="notranslate">
+          <div id="nav">
+            <ul>
+  <li><a href="/">Top</a></li>
+  <li><a href="/news/">News</a></li>
+  <li><a href="/features/">Features</a></li>
+  <li><span class="active" title="You're here.">Case</span>
+  <li><a href="/download/">Download</a></li>
+  <li><a href="/documentation/">Documentation</a></li>
+  <li><a href="/support/">Support</a></li>
+</ul>
+
+
+          </div>
+          <div id="links">
+            <ul>
+  <li><a class="navigate" title="Discussion group" href="https://groups.google.com/forum/#!forum/thinreports">Discussion group</a></li>
+  <li><a class="navigate" href="https://github.com/thinreports">GitHub repository</a></li>
+  <li><span class="navigate pending">Issue tracker</span></li>
+</ul>
+
+          </div>
+          <div id="social">
+            <dl>
+  <dt>Twitter</dt>
+  <dd>
+    <a href="https://twitter.com/thinreports_org" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true" data-lang="en">@thinreports_org</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </dd>
+  <dt>Facebook</dt>
+  <dd>
+    <div class="fb-like" data-href="https://www.facebook.com/ThinReports.org" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+  </dd>
+  <dt>Google+</dt>
+  <dd>
+    <div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/114713031849115840244" data-rel="publisher"></div>
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/platform.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+  </dd>
+</dl>
+          </div>
+          <div id="translater">
+            <div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'ja', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true, gaTrack: true, gaId: 'UA-19321975-2'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+          </div>
+        </div>
+        <div id="content" class="content-case-detail">
+        
+          
+
+
+
+<h2>Case</h2>
+
+<div class="navbar clearfix">
+  <a class="back-to-cases" href="/case/">事例一覧へ戻る</a>
+  <div class="share">
+  <a href="http://b.hatena.ne.jp/entry/http://www.thinreports.org/case/3/" class="hatena-bookmark-button" data-hatena-bookmark-layout="simple-balloon" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;"></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  <div class="fb-like" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="thinreports_org" data-lang="ja">ツイート</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+
+</div>
+
+
+
+<div class="case-title clearfix">
+  <h2>領収書作成サービス「Misoca の Web領収書」</h2>
+  <a target="_blank" href="http://www.misoca.jp/"><img src="/assets/images/case/3/logo.png" alt="スタンドファーム株式会社"></a>
+</div>
+
+<div class="section about-system clearfix">
+  <h3><span>Q. サービスについて教えて下さい</span></h3>
+  <div class="box system-info">
+    <dl>
+      <dt>エンドユーザ</dt>
+      <dd>自社サービス</dd>
+      <dt>サービス</dt>
+      <dd>
+        Misoca の Web領収書<br>
+        <a class="external" target="_blank" href="https://xn--lorw95b519a.net/">https://領収書.net</a>
+      </dd>
+<dt>開発会社</dt>
+      <dd>
+        スタンドファーム株式会社<br>
+        <a class="external" target="_blank" href="http://standfirm.jp/">http://standfirm.jp/</a>
+      </dd>
+      <dt>実行環境</dt>
+      <dd>
+        <ul>
+          <li><a href="https://www.heroku.com/" target="_blank" class="external">Heroku</a></li>
+          <li>Ruby 2.0.0</li>
+          <li>Ruby on Rails 3.2.13</li>
+          <li>ThinReports 0.7.6</li>
+        </ul>
+      </dd>
+    </dl>
+  </div>
+  <p>
+    オンラインで簡単に領収書や領収書のひな形を作成したい人向けのサービスです。領収書の情報を入力してボタンを押すだけで、領収書のPDFをすぐにダウンロードできます。個別作成・ひな形作成・Excel一括作成と利用状況に合わせて作成方法を選択できます。ブラウザで完結し、入力データはサーバに保存されないので、セキュリティ的にも安心です。
+  </p>
+  <p>
+    <img src="/assets/images/case/3/screenshot.png" alt="スクリーンショット">
+  </p>
+</div>
+
+<div class="section how-to-use">
+  <h3><span>Q. どのように活用されていますか？</span></h3>
+  <p>
+    領収書 PDF の生成
+  </p>
+  <div class="box clearfix">
+    <dl>
+      <dt>帳票 (PDF) の種類</dt>
+      <dd>
+        <ul>
+          <li>領収書</li>
+        </ul>
+        <p>その他、全 2 種類</p>
+      </dd>
+    </dl>
+    <dl>
+      <dt>平均出力ページ数</dt>
+      <dd>
+        <p>1 ページ</p>
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<div class="section">
+  <h3><span>Q. 採用した理由を教えてください</span></h3>
+  <p>GUIでテンプレートファイルを作成でき、PDF生成も簡単なため。</p>
+</div>
+
+<div class="section">
+  <h3><span>Q. 採用による効果やメリットを教えてください</span></h3>
+  <p>PDF生成が簡単なため、開発時間を短縮できた。</p>
+</div>
+
+<div class="section">
+  <h3><span>Q. イマイチなところやご要望があれば教えてください</span></h3>
+  <p>
+    あえて要望をいうのであればMac版のエディタはオブジェクトの選択などがしにくいときがある。
+  </p>
+</div>
+
+<div class="section">
+  <h3><span>Q. ThinReports Project に今後期待することをどうぞ</span></h3>
+  <p>
+    以下のURLに記載されたページヘッダーの実装<br>
+    <a href="http://osc.matsukei.net/boards/4/topics/172" target="_blank" class="external">http://osc.matsukei.net/boards/4/topics/172</a>
+  </p>
+</div>
+
+<div class="section message">
+  <h3>ありがとうございました。最後に一言お願いします。</h3>
+  <p>
+    弊社では <a href="http://www.misoca.jp/" target="_blank" class="external">Misoca</a> というクラウド請求書管理サービスを運営しております。
+    このサービス構築時には ThinReports は公開されていなかったため PDF 作成に ThinReports を使っていないのですが
+    次の関連サービスでは ThinReports を採用が決まっており開発を進めています。
+    弊社も帳票関連サービスを運営する会社として、今後 ThinReports の活動にもフィードバックや直接的なコミットという形で貢献できればと思っています。
+  </p>
+</div>
+
+<div class="section caution">
+  <p>本事例に記載の内容は 2013 年 10 月に取材したものであり、現在と異なる可能性があります。</p>
+</div>
+        
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="notranslate">
+      <div class="container clearfix">
+  <div class="links">
+    <ul>
+  <li><a href="/">Top</a></li>
+  <li><a href="/news/">News</a></li>
+  <li><a href="/features/">Features</a></li>
+  <li><span class="active" title="You're here.">Case</span>
+  <li><a href="/download/">Download</a></li>
+  <li><a href="/documentation/">Documentation</a></li>
+  <li><a href="/support/">Support</a></li>
+</ul>
+
+
+  </div>
+  <div class="bottom">
+    <address>Copyright &copy; 2010-2014 Matsukei Corp</address>. 
+    This site is generated by <a title="nanoc" href="http://nanoc.stoneship.org/">nanoc</a>, and the source code is <a href="https://github.com/thinreports/thinreports.org">here</a>.
+  </div>
+</div>
+    </div>
+    <div id="info-bar">
+  <a title="2014.07.15 公式サイトが多言語に対応しました" href="/news/2014/07/available-site-translation/">NEWS <span>2014.07.15</span> 公式サイトが多言語に対応しました</a>
+</div>
+
+
+  </body>
+</html>
+

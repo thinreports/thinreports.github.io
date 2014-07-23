@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>事例 › 組合事務局向け案件管理システムの帳票出力に by 株式会社アジャイルウェア | ThinReports - 帳票ソリューション for Ruby and Rails</title>
+    <link rel="alternate" type="application/atom+xml" title="Atom" href="/news/feed.xml">
+    
+<meta property="og:title" content="事例 › 組合事務局向け案件管理システムの帳票出力に by 株式会社アジャイルウェア | ThinReports">
+<meta property="og:type" content="article">
+<meta property="og:description" content="国内の木造戸建住宅の住宅点検や床下白蟻点検・保証をサービスとする組合事務局の業務・案件管理システム。保証書、請求書、支払通知書、定期点検リスト等で利用。">
+<meta property="og:url" content="http://www.thinreports.org/case/4/">
+<meta property="og:image" content="http://www.thinreports.org/assets/images/case/4/screenshot.png">
+<meta property="og:site_name" content="ThinReports - 帳票ソリューション for Ruby and Rails">
+<meta property="fb:admins" content="100001000444231">
+
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" media="all">
+    
+    <script type="text/javascript" src="/assets/javascript/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-19321975-2']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <meta name="google-translate-customization" content="42ed873f8f1dc374-e7eb180f333a5c2a-g116caa56e8142ce9-13"></meta>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=224790820998167&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <div id="container" class="container">
+      <div id="github-ribbon">
+        <a href="https://github.com/thinreports">
+  <img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png">
+</a>
+
+      </div>
+      <div id="header">
+        <h1><a href="/"><img src="/assets/images/thinreports-logo.png" alt="Open Source Reporting Solution - ThinReports"></a></h1>
+
+
+      </div>
+      <div id="main" class="clearfix">
+        <div id="side" class="notranslate">
+          <div id="nav">
+            <ul>
+  <li><a href="/">Top</a></li>
+  <li><a href="/news/">News</a></li>
+  <li><a href="/features/">Features</a></li>
+  <li><span class="active" title="You're here.">Case</span>
+  <li><a href="/download/">Download</a></li>
+  <li><a href="/documentation/">Documentation</a></li>
+  <li><a href="/support/">Support</a></li>
+</ul>
+
+
+          </div>
+          <div id="links">
+            <ul>
+  <li><a class="navigate" title="Discussion group" href="https://groups.google.com/forum/#!forum/thinreports">Discussion group</a></li>
+  <li><a class="navigate" href="https://github.com/thinreports">GitHub repository</a></li>
+  <li><span class="navigate pending">Issue tracker</span></li>
+</ul>
+
+          </div>
+          <div id="social">
+            <dl>
+  <dt>Twitter</dt>
+  <dd>
+    <a href="https://twitter.com/thinreports_org" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true" data-lang="en">@thinreports_org</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </dd>
+  <dt>Facebook</dt>
+  <dd>
+    <div class="fb-like" data-href="https://www.facebook.com/ThinReports.org" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+  </dd>
+  <dt>Google+</dt>
+  <dd>
+    <div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/114713031849115840244" data-rel="publisher"></div>
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/platform.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+  </dd>
+</dl>
+          </div>
+          <div id="translater">
+            <div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'ja', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true, gaTrack: true, gaId: 'UA-19321975-2'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+          </div>
+        </div>
+        <div id="content" class="content-case-detail">
+        
+          
+
+
+
+<h2>Case</h2>
+
+<div class="navbar clearfix">
+  <a class="back-to-cases" href="/case/">事例一覧へ戻る</a>
+  <div class="share">
+  <a href="http://b.hatena.ne.jp/entry/http://www.thinreports.org/case/4/" class="hatena-bookmark-button" data-hatena-bookmark-layout="simple-balloon" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;"></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  <div class="fb-like" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="thinreports_org" data-lang="ja">ツイート</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+
+</div>
+
+
+
+<div class="case-title clearfix">
+  <h2>組合事務局向け案件管理システムの帳票出力に</h2>
+  <a target="_blank" href="http://agileware.jp"><img src="/assets/images/case/4/logo.png" alt="株式会社アジャイルウェア"></a>
+</div>
+
+<div class="section about-system clearfix">
+  <h3><span>Q. システムについて教えて下さい</span></h3>
+  <div class="box system-info">
+    <dl>
+      <dt>エンドユーザ</dt>
+      <dd><a class="external-base" target="_blank" href="http://www.house-maintenance.org/">日本長期住宅メンテナンス有限責任事業組合</a></dd>
+      <dt>システム</dt>
+      <dd>組合案件管理システム</dd>
+      <dt>開発会社</dt>
+      <dd>
+        株式会社アジャイルウェア<br>
+        <a class="external" target="_blank" href="http://agileware.jp">http://agileware.jp</a>
+      </dd>
+      <dt>実行環境</dt>
+      <dd>
+        <ul>
+          <li>CentOS</li>
+          <li>Ruby 2.0.0</li>
+          <li>Ruby on Rails 3.2</li>
+          <li>ThinReports 0.7.6</li>
+        </ul>
+      </dd>
+    </dl>
+  </div>
+  <p>
+    国内の木造戸建住宅の住宅点検や床下白蟻点検・保証をサービスとする組合事務局の業務・案件管理システム。保証書、請求書、支払通知書、定期点検リスト等で利用。
+  </p>
+  <p>
+    <img src="/assets/images/case/4/screenshot.png" alt="スクリーンショット">
+  </p>
+</div>
+
+<div class="section how-to-use">
+  <h3><span>Q. どのように活用されていますか？</span></h3>
+  <p>
+    点検した住宅に発行する保証書や依頼主への請求書など各種帳票の出力として
+  </p>
+  <div class="box clearfix">
+    <dl>
+      <dt>帳票 (PDF) の種類</dt>
+      <dd>
+        <ul>
+          <li>点検保証書</li>
+          <li>費用請求書</li>
+          <li>振込通知書</li>
+        </ul>
+        <p>その他、全 8 種類</p>
+      </dd>
+    </dl>
+    <dl>
+      <dt>平均出力ページ数</dt>
+      <dd>
+        <p>1 ページ</p>
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<div class="section">
+  <h3><span>Q. 採用した理由を教えてください</span></h3>
+  <p>PDF形式の各種帳票を出力するため。</p>
+</div>
+
+<div class="section">
+  <h3><span>Q. 採用による効果やメリットを教えてください</span></h3>
+  <p>帳票の作成を Ruby on Rails アプリケーション内で完結させることができた。</p>
+</div>
+
+<div class="section">
+  <h3><span>Q. イマイチなところやご要望があれば教えてください</span></h3>
+  <p>
+    利用する帳票の中には、品質保証書もあるため、品のあるフォントを使いたく、もっとフォントが選べると良いです。
+    ユーザ間のちょっとしたつまずきに対するノウハウの共有がまだ活発でない。
+    またガイドは非常に強力なのですが、ルーラーもしくはグリッドも表示できるようになると嬉しいです。
+  </p>
+</div>
+
+<div class="section">
+  <h3><span>Q. ThinReports Project に今後期待することをどうぞ</span></h3>
+  <p>
+    ロードマップなどで開発の進捗が見えているので今後も継続して開発が進んでいくことを期待しています。
+    またユーザを含めノウハウやテンプレートの共有などプロジェクトの周辺の発展が進んでいくことも期待します。
+  </p>
+</div>
+
+<div class="section message">
+  <h3>ありがとうございました。最後に一言お願いします。</h3>
+  <p>
+    帳票のPDF出力は根強く需要のある機能であり、オンライン業務システムの開発を行っている弊社ではThinReportsによりブラウザで完結できるソリューションを目指しています。
+    今後は蓄えたノウハウやフィードバックなどをThinReportsプロジェクトに還元していければと考えております。
+  </p>
+</div>
+
+<div class="section caution">
+  <p>本事例に記載の内容は 2013 年 12 月に取材したものであり、現在と異なる可能性があります。</p>
+</div>
+        
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="notranslate">
+      <div class="container clearfix">
+  <div class="links">
+    <ul>
+  <li><a href="/">Top</a></li>
+  <li><a href="/news/">News</a></li>
+  <li><a href="/features/">Features</a></li>
+  <li><span class="active" title="You're here.">Case</span>
+  <li><a href="/download/">Download</a></li>
+  <li><a href="/documentation/">Documentation</a></li>
+  <li><a href="/support/">Support</a></li>
+</ul>
+
+
+  </div>
+  <div class="bottom">
+    <address>Copyright &copy; 2010-2014 Matsukei Corp</address>. 
+    This site is generated by <a title="nanoc" href="http://nanoc.stoneship.org/">nanoc</a>, and the source code is <a href="https://github.com/thinreports/thinreports.org">here</a>.
+  </div>
+</div>
+    </div>
+    <div id="info-bar">
+  <a title="2014.07.15 公式サイトが多言語に対応しました" href="/news/2014/07/available-site-translation/">NEWS <span>2014.07.15</span> 公式サイトが多言語に対応しました</a>
+</div>
+
+
+  </body>
+</html>
+

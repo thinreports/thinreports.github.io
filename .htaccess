@@ -1,0 +1,9 @@
+# Redirect contents
+Redirect permanent /documentation/introduction http://www.thinreports.org/features/
+Redirect permanent /documentation/guides http://www.thinreports.org/documentation/
+Redirect permanent /documentation/api http://rubydoc.info/gems/thinreports/0.7.7/frames
+Redirect permanent /features/concepts http://www.thinreports.org/features/
+Redirect permanent /contact http://www.thinreports.org
+
+# 404 page
+ErrorDocument 404 /404/

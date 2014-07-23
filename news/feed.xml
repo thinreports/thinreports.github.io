@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://www.thinreports.org/</id>
+  <title>ThinReports News</title>
+  <updated>2014-07-15T01:30:00Z</updated>
+  <link rel="alternate" href="http://www.thinreports.org/"/>
+  <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
+  <author>
+    <name>ThinReports.org</name>
+    <uri>http://www.thinreports.org</uri>
+  </author>
+  <entry>
+    <id>tag:www.thinreports.org,2014-07-15:/news/2014/07/available-site-translation/</id>
+    <title type="html">公式サイトが多言語に対応しました</title>
+    <published>2014-07-15T01:30:00Z</published>
+    <updated>2014-07-15T01:30:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2014/07/available-site-translation/"/>
+    <content type="html">&lt;p&gt;公式サイト www.thinreports.org の利用者のうち、約 30% が日本語以外の環境を使っています。
+この状況に対応するために &lt;a href="https://translate.google.com/manager/website/"&gt;Google ウェブサイト翻訳ツール&lt;/a&gt; を設置しました。&lt;/p&gt;
+
+&lt;p&gt;以下のように、自分の言語を選択することでサイト全体が Google 翻訳によって自動的に翻訳されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="images/site-translation.png" alt="言語切り替え"&gt;&lt;/p&gt;
+
+&lt;p&gt;ぜひご活用下さい。また、よろしければ翻訳改善にご協力ください。&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:www.thinreports.org,2014-07-02:/news/2014/07/official-mailing-list-now-ready/</id>
+    <title type="html">公式メーリングリストを作成しました</title>
+    <published>2014-07-02T16:16:00Z</published>
+    <updated>2014-07-02T16:16:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2014/07/official-mailing-list-now-ready/"/>
+    <content type="html">&lt;p&gt;ThinReports の公式フォーラムを廃止し、公式メーリングリストを作成しました。&lt;/p&gt;
+
+&lt;p&gt;これまで、公式フォーラムとして ThinReports プロジェクトサイトのフォーラムを利用してきましたが、これを廃止し、新たに &lt;a href="https://groups.google.com/forum/#!forum/thinreports"&gt;公式メーリングリスト&lt;/a&gt; を作成しました。これまで ThinReports プロジェクトサイトのフォーラムをご利用いただいていた方は、大変お手数ですが、公式メーリングリストへの登録をお願いします。&lt;/p&gt;
+
+&lt;p&gt;なお、廃止後も、当面の間は旧フォーラムを閲覧することができます。&lt;/p&gt;
+
+&lt;h3&gt;関連情報&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://groups.google.com/forum/#!forum/thinreports"&gt;ThinReports Official Mailing List&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+</feed>
