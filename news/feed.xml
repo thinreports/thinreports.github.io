@@ -2,13 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>ThinReports News</title>
-  <updated>2014-07-15T01:30:00Z</updated>
+  <updated>2014-07-23T21:59:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>ThinReports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2014-07-23:/news/2014/07/move-to-github-pages/</id>
+    <title type="html">公式サイトを GitHub Pages へ移行しました</title>
+    <published>2014-07-23T21:59:00Z</published>
+    <updated>2014-07-23T21:59:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2014/07/move-to-github-pages/"/>
+    <content type="html">&lt;p&gt;公式サイト www.thinreports.org を GitHub Pages へ完全に移行しました。  &lt;/p&gt;
+
+&lt;p&gt;移行した理由は以下の通りです。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;デプロイを自動化し &lt;a href="https://twitter.com/hidakatsuya"&gt;@hidakatsuya&lt;/a&gt; のような特定のユーザだけでなく、コミュニティによる更新が可能な環境へ&lt;/li&gt;
+  &lt;li&gt;旧ホスティングサーバのメンテナンス業からの解放&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;www.thinreports.org は、 Ruby 製静的サイトジェネレーター &lt;a href="http://nanoc.ws/"&gt;nanoc&lt;/a&gt; によって管理されており、
+そのソースコードは &lt;a href="https://github.com/thinreports/thinreports.org"&gt;GitHub&lt;/a&gt; にて公開しています。サイトのリンク切れや間違いを見つけたら &lt;a href="https://github.com/thinreports/thinreports.org/issues/new"&gt;こちら&lt;/a&gt; よりご報告いただけると嬉しいです。もちろん Pull Request もお待ちしております（近く、ローカル環境でのサイト開発、確認方法を含めた Pull Request 手順をまとめます）&lt;/p&gt;
+
+&lt;p&gt;また、サイトのソースコードや更新履歴は &lt;a href="https://github.com/thinreports/thinreports.github.io"&gt;thinreports.github.io&lt;/a&gt; にて確認できます。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2014-07-15:/news/2014/07/available-site-translation/</id>
     <title type="html">公式サイトが多言語に対応しました</title>
