@@ -2,13 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>ThinReports News</title>
-  <updated>2014-08-10T10:13:00Z</updated>
+  <updated>2014-08-13T18:46:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>ThinReports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2014-08-13:/news/2014/08/editor-0_7_7_2-released/</id>
+    <title type="html">Editor 0.7.7.2 released</title>
+    <published>2014-08-13T18:46:00Z</published>
+    <updated>2014-08-13T18:46:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2014/08/editor-0_7_7_2-released/"/>
+    <content type="html">&lt;p&gt;ThinReports Editor 0.7.7.2 をリリースしました。&lt;/p&gt;
+
+&lt;p&gt;3 件のバグを修正しています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://github.com/thinreports/thinreports-editor/issues/7"&gt;#7&lt;/a&gt; 用紙のサイズで &lt;code&gt;user&lt;/code&gt; を使用して作成した &lt;code&gt;.tlf&lt;/code&gt; が使用できない&lt;/li&gt;
+  &lt;li&gt;
+&lt;a href="https://github.com/thinreports/thinreports-editor/issues/8"&gt;#8&lt;/a&gt; The format of the PageNumber tool is not copied&lt;/li&gt;
+  &lt;li&gt;
+&lt;a href="https://github.com/thinreports/thinreports-editor/issues/9"&gt;#9&lt;/a&gt; When paper type is &lt;code&gt;user&lt;/code&gt;, paper orientation is not applied&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;用紙サイズが &lt;code&gt;user&lt;/code&gt; のとき PDF 生成時にエラーが発生するバグ &lt;code&gt;#7&lt;/code&gt; については、
+レイアウトファイルを &lt;code&gt;0.7.7.2&lt;/code&gt; で開き、保存しなおすことで解決できます。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;関連リンク:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/CHANGELOG.md"&gt;ChangeLog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/download/"&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2014-08-10:/news/2014/08/future-of-thinreports/</id>
     <title type="html">ThinReports の今後</title>

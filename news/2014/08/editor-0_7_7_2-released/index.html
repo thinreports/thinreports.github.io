@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Documentation | ThinReports - 帳票ソリューション for Ruby and Rails</title>
+    <title>Editor 0.7.7.2 released | ThinReports - 帳票ソリューション for Ruby and Rails</title>
     <link rel="alternate" type="application/atom+xml" title="Atom" href="/news/feed.xml">
-    <meta property="og:title" content="Documentation | ThinReports">
+    <meta property="og:title" content="Editor 0.7.7.2 released | ThinReports">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://www.thinreports.org/documentation/">
+<meta property="og:url" content="http://www.thinreports.org/news/2014/08/editor-0_7_7_2-released/">
 <meta property="og:site_name" content="ThinReports - 帳票ソリューション for Ruby and Rails">
 <meta property="og:image" content="http://www.thinreports.org/assets/images/thinreports-logo-v.png">
 <meta property="fb:admins" content="100001000444231">
@@ -55,10 +55,10 @@
           <div id="nav">
             <ul>
   <li><a href="/">Top</a></li>
-  <li><a href="/news/">News</a></li>
+  <li><span class="active" title="You're here.">News</span></li>
   <li><a href="/features/">Features</a></li>
   <li><a href="/download/">Download</a></li>
-  <li><span class="active" title="You're here.">Documentation</span></li>
+  <li><a href="/documentation/">Documentation</a></li>
   <li><a href="/community/">Community</a></li>
   <li><a href="/case/">Case</a>
   <li><a href="/support/">Support</a></li>
@@ -105,61 +105,66 @@ function googleTranslateElementInit() {
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
           </div>
         </div>
-        <div id="content" class="content-documentation">
+        <div id="content" class="content-news-post">
         
-          <h2>Documentation</h2>
-
-<div class="section" id="users-guide">
-  <h3>Users Guide</h3>
-  <p>
-    ThinReports の Users Guide は Project Site 上で公開しています。
-    Users Guide では、以下の内容が閲覧できます。
-  </p>
-  <dl class="h4s">
-<dt>
-<a class="navigate" href="http://osc.matsukei.net/projects/thinreports/wiki/En_Installation_Guide">Installation Guide</a><span class="doc"><a class="doc doc-ja" href="http://osc.matsukei.net/projects/thinreports/wiki/Installation_Guide">ja</a><a class="doc doc-en" href="http://osc.matsukei.net/projects/thinreports/wiki/En_Installation_Guide">en</a></span>
-</dt>
-    <dd>
-      ThinReports のインストール方法について詳しく解説しています。
-    </dd>
-    <dt>
-<a class="navigate" href="http://osc.matsukei.net/projects/thinreports/wiki/En_Getting_Started">Getting Started</a><span class="doc"><a class="doc doc-ja" href="http://osc.matsukei.net/projects/thinreports/wiki/Getting_Started">ja</a><a class="doc doc-en" href="http://osc.matsukei.net/projects/thinreports/wiki/En_Getting_Started">en</a></span>
-</dt>
-    <dd>
-      ThinReports を始める際の準備、帳票作成の基本的な方法を説明しています。
-    </dd>
-    <dt>
-<a class="navigate" href="http://osc.matsukei.net/projects/thinreports/wiki/En_Examples">Examples</a><span class="doc"><a class="doc doc-ja" href="http://osc.matsukei.net/projects/thinreports/wiki/Examples">ja</a><a class="doc doc-en" href="http://osc.matsukei.net/projects/thinreports/wiki/En_Examples">en</a></span>
-</dt>
-    <dd>
-      ThinReports の基本的な使い方から高度な一覧表の作成方法まで、さまざまな例題のソースコード/レイアウトファイルを掲載しています。
-      なお、掲載されているソースコード/レイアウトファイル/出力結果(PDF)は <strong>全てダウンロード可能</strong>です。
-    </dd>
-    <dt>
-<a class="navigate" href="http://osc.matsukei.net/projects/thinreports/wiki/En_Tutorial">Tutorial</a><span class="doc"><a class="doc doc-ja" href="http://osc.matsukei.net/projects/thinreports/wiki/Tutorial">ja</a><a class="doc doc-en" href="http://osc.matsukei.net/projects/thinreports/wiki/En_Tutorial">en</a></span>
-</dt>
-    <dd>
-      ThinReports と他のツールを組み合わせた使い方について説明しています。
-    </dd>
-    <dt><a class="navigate" href="http://rubydoc.info/gems/thinreports/0.7.7/frames">API Documentation for Generator (RubyGems.org)</a></dt>
-    <dd>
-      ThinReports Generator for Ruby の APIドキュメントを閲覧できます。
-    </dd>
-  </dl>
+          <div class="back-to-all-news">
+  <a href="/news/">News</a>
 </div>
 
-<div class="section" id="others">
-  <h3>Others</h3>
-  <p>
-    Users Guide の他にも ThinReports を使う上で役立つリソースをご紹介します。
-  </p>
-  <dl class="h4s">
-<dt><a class="navigate" href="https://github.com/thinreports">Source Code and Example apps</a></dt>
-    <dd>
-      ThinReports は、その全てのソースコードを <a href="https://github.com/thinreports">GitHub</a> で公開しています。
-    </dd>
-  </dl>
+<h2>Editor 0.7.7.2 released</h2>
+
+<div class="posted-at">
+  2014.08.13
+  
+    / written by <a class="twitter" href="https://twitter.com/hidakatsuya">@hidakatsuya</a>
+  
 </div>
+
+
+            <p>ThinReports Editor 0.7.7.2 をリリースしました。</p>
+
+<p>3 件のバグを修正しています。</p>
+
+<ul>
+<li>
+<a href="https://github.com/thinreports/thinreports-editor/issues/7">#7</a> 用紙のサイズで <code>user</code> を使用して作成した <code>.tlf</code> が使用できない</li>
+  <li>
+<a href="https://github.com/thinreports/thinreports-editor/issues/8">#8</a> The format of the PageNumber tool is not copied</li>
+  <li>
+<a href="https://github.com/thinreports/thinreports-editor/issues/9">#9</a> When paper type is <code>user</code>, paper orientation is not applied</li>
+</ul><p>用紙サイズが <code>user</code> のとき PDF 生成時にエラーが発生するバグ <code>#7</code> については、
+レイアウトファイルを <code>0.7.7.2</code> で開き、保存しなおすことで解決できます。</p>
+
+<p><strong>関連リンク:</strong></p>
+
+<ul>
+<li><a href="https://github.com/thinreports/thinreports-editor/blob/master/CHANGELOG.md">ChangeLog</a></li>
+  <li><a href="/download/">Download</a></li>
+</ul>
+          
+
+<div class="share">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="News - Editor 0.7.7.2 released | ThinReports" data-via="thinreports_org" data-hashtags="ThinReports">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+<div class="comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'thinreports-org'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
         
         </div>
       </div>
@@ -169,10 +174,10 @@ function googleTranslateElementInit() {
   <div class="links">
     <ul>
   <li><a href="/">Top</a></li>
-  <li><a href="/news/">News</a></li>
+  <li><span class="active" title="You're here.">News</span></li>
   <li><a href="/features/">Features</a></li>
   <li><a href="/download/">Download</a></li>
-  <li><span class="active" title="You're here.">Documentation</span></li>
+  <li><a href="/documentation/">Documentation</a></li>
   <li><a href="/community/">Community</a></li>
   <li><a href="/case/">Case</a>
   <li><a href="/support/">Support</a></li>
