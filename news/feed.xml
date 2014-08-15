@@ -27,7 +27,7 @@
   &lt;li&gt;
 &lt;a href="https://github.com/thinreports/thinreports-editor/issues/9"&gt;#9&lt;/a&gt; When paper type is &lt;code&gt;user&lt;/code&gt;, paper orientation is not applied&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;用紙サイズが &lt;code&gt;user&lt;/code&gt; のとき PDF 生成時にエラーが発生するバグ &lt;code&gt;#7&lt;/code&gt; については、
-レイアウトファイルを &lt;code&gt;0.7.7.2&lt;/code&gt; で開き、保存しなおすことで解決できます。&lt;/p&gt;
+レイアウトファイルを 0.7.7.2 で開き、保存しなおすことで解決できます。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;関連リンク:&lt;/strong&gt;&lt;/p&gt;
 
