@@ -55,7 +55,7 @@
 &lt;p&gt;その主な原因を以下の通りと考えています。&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;主要な開発メンバーが二人しかいない（&lt;a class="twitter" href="https://twitter.com/hidakatsuya"&gt;@hidakatsuya&lt;/a&gt;, &lt;a class="twitter" href="https://twitter.com/minoru_maeda"&gt;@minoru_maeda&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt;主要な開発メンバーが二人しかいない（&lt;a class="twitter notranslate" href="https://twitter.com/hidakatsuya"&gt;@hidakatsuya&lt;/a&gt;, &lt;a class="twitter notranslate" href="https://twitter.com/minoru_maeda"&gt;@minoru_maeda&lt;/a&gt;）&lt;/li&gt;
   &lt;li&gt;帳票レイアウトファイルの仕様が非公開なので、開発に参加しづらい&lt;/li&gt;
   &lt;li&gt;ドキュメントや公式サイトを上記二人以外が編集する術が無い&lt;/li&gt;
   &lt;li&gt;公式サイトやプロジェクトサイト &lt;a href="http://osc.matsukei.net"&gt;osc.matsukei.net&lt;/a&gt; のサーバ保守作業がめんどう&lt;/li&gt;
@@ -156,7 +156,7 @@ Generator については、Generator の API 設計にも問題があります�
 &lt;h5&gt;Ruby 1.8.7 がサポート対象外へ&lt;/h5&gt;
 
 &lt;div class="ps"&gt;
-  &lt;span&gt;2014/08/11 追記 by &lt;a class="twitter" href="https://twitter.com/hidakatsuya"&gt;@hidakatsuya&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;2014/08/11 追記 by &lt;a class="twitter notranslate" href="https://twitter.com/hidakatsuya"&gt;@hidakatsuya&lt;/a&gt;&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;p&gt;現在の Generator は Ruby 1.8.7, 1.9.3, 2.0, 2.1 に対応しています。
@@ -197,7 +197,7 @@ v1.0.0 では、内部ライブラリ prawn を最新版にアップデートす
 ダウンロードしたり API から使ってみることができるような感じでしょうか。&lt;/p&gt;
 
 &lt;p&gt;これについては、今後 &lt;a href="http://repoten-api.net/"&gt;REPOTEN-API&lt;/a&gt; や &lt;a href="http://repoten.tumblr.com/"&gt;公式ブログ&lt;/a&gt; 、
-&lt;a class="twitter" href="https://twitter.com/repoten_team"&gt;@repoten_team&lt;/a&gt; をチェックして下さい。&lt;/p&gt;</content>
+&lt;a class="twitter notranslate" href="https://twitter.com/repoten_team"&gt;@repoten_team&lt;/a&gt; をチェックして下さい。&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:www.thinreports.org,2014-07-23:/news/2014/07/move-to-github-pages/</id>
@@ -210,7 +210,7 @@ v1.0.0 では、内部ライブラリ prawn を最新版にアップデートす
 &lt;p&gt;移行した理由は以下の通りです。&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;デプロイを自動化し &lt;a class="twitter" href="https://twitter.com/hidakatsuya"&gt;@hidakatsuya&lt;/a&gt; のような特定のユーザだけでなく、コミュニティによる更新が可能な環境へ&lt;/li&gt;
+&lt;li&gt;デプロイを自動化し &lt;a class="twitter notranslate" href="https://twitter.com/hidakatsuya"&gt;@hidakatsuya&lt;/a&gt; のような特定のユーザだけでなく、コミュニティによる更新が可能な環境へ&lt;/li&gt;
   &lt;li&gt;旧ホスティングサーバのメンテナンス業からの解放&lt;/li&gt;
 &lt;/ol&gt;&lt;p&gt;www.thinreports.org は、 Ruby 製静的サイトジェネレーター &lt;a href="http://nanoc.ws/"&gt;nanoc&lt;/a&gt; によって管理されており、
 そのソースコードは &lt;a href="https://github.com/thinreports/thinreports.org"&gt;GitHub&lt;/a&gt; にて公開しています。サイトのリンク切れや間違いを見つけたら &lt;a href="https://github.com/thinreports/thinreports.org/issues/new"&gt;こちら&lt;/a&gt; よりご報告いただけると嬉しいです。もちろん Pull Request もお待ちしております（近く、ローカル環境でのサイト開発、確認方法を含めた Pull Request 手順をまとめます）&lt;/p&gt;
