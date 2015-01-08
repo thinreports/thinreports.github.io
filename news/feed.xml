@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
@@ -15,7 +16,8 @@
     <published>2014-08-13T18:46:00Z</published>
     <updated>2014-08-13T18:46:00Z</updated>
     <link rel="alternate" href="http://www.thinreports.org/news/2014/08/editor-0_7_7_2-released/"/>
-    <content type="html">&lt;p&gt;ThinReports Editor 0.7.7.2 をリリースしました。&lt;/p&gt;
+    <content type="html">
+&lt;p&gt;ThinReports Editor 0.7.7.2 をリリースしました。&lt;/p&gt;
 
 &lt;p&gt;Editor の 3 件のバグを修正しています。Generator のリリースはありません。&lt;/p&gt;
 
@@ -42,7 +44,8 @@
     <published>2014-08-10T10:13:00Z</published>
     <updated>2014-08-10T10:13:00Z</updated>
     <link rel="alternate" href="http://www.thinreports.org/news/2014/08/future-of-thinreports/"/>
-    <content type="html">&lt;p&gt;ThinReports の今後についてまとめておきたいと思います。&lt;/p&gt;
+    <content type="html">
+&lt;p&gt;ThinReports の今後についてまとめておきたいと思います。&lt;/p&gt;
 
 &lt;h3&gt;コミュニティ主導へ&lt;/h3&gt;
 
@@ -205,7 +208,8 @@ v1.0.0 では、内部ライブラリ prawn を最新版にアップデートす
     <published>2014-07-23T21:59:00Z</published>
     <updated>2014-07-23T21:59:00Z</updated>
     <link rel="alternate" href="http://www.thinreports.org/news/2014/07/move-to-github-pages/"/>
-    <content type="html">&lt;p&gt;公式サイト www.thinreports.org を GitHub Pages へ完全に移行しました。  &lt;/p&gt;
+    <content type="html">
+&lt;p&gt;公式サイト www.thinreports.org を GitHub Pages へ完全に移行しました。  &lt;/p&gt;
 
 &lt;p&gt;移行した理由は以下の通りです。&lt;/p&gt;
 
@@ -223,7 +227,8 @@ v1.0.0 では、内部ライブラリ prawn を最新版にアップデートす
     <published>2014-07-15T01:30:00Z</published>
     <updated>2014-07-15T01:30:00Z</updated>
     <link rel="alternate" href="http://www.thinreports.org/news/2014/07/available-site-translation/"/>
-    <content type="html">&lt;p&gt;公式サイト www.thinreports.org の利用者のうち、約 30% が日本語以外の環境を使っています。
+    <content type="html">
+&lt;p&gt;公式サイト www.thinreports.org の利用者のうち、約 30% が日本語以外の環境を使っています。
 この状況に対応するために &lt;a href="https://translate.google.com/manager/website/"&gt;Google ウェブサイト翻訳ツール&lt;/a&gt; を設置しました。&lt;/p&gt;
 
 &lt;p&gt;以下のように、自分の言語を選択することでサイト全体が Google 翻訳によって自動的に翻訳されます。&lt;/p&gt;
@@ -238,7 +243,8 @@ v1.0.0 では、内部ライブラリ prawn を最新版にアップデートす
     <published>2014-07-02T16:16:00Z</published>
     <updated>2014-07-02T16:16:00Z</updated>
     <link rel="alternate" href="http://www.thinreports.org/news/2014/07/official-mailing-list-now-ready/"/>
-    <content type="html">&lt;p&gt;ThinReports の公式フォーラムを廃止し、公式メーリングリストを作成しました。&lt;/p&gt;
+    <content type="html">
+&lt;p&gt;ThinReports の公式フォーラムを廃止し、公式メーリングリストを作成しました。&lt;/p&gt;
 
 &lt;p&gt;これまで、公式フォーラムとして ThinReports プロジェクトサイトのフォーラムを利用してきましたが、これを廃止し、新たに &lt;a href="https://groups.google.com/forum/#!forum/thinreports"&gt;公式メーリングリスト&lt;/a&gt; を作成しました。これまで ThinReports プロジェクトサイトのフォーラムをご利用いただいていた方は、大変お手数ですが、公式メーリングリストへの登録をお願いします。&lt;/p&gt;
 
