@@ -3,13 +3,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>ThinReports News</title>
-  <updated>2014-08-13T18:46:00Z</updated>
+  <updated>2015-01-09T10:00:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>ThinReports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2015-01-09:/news/2015/01/future-of-thinreports-community/</id>
+    <title type="html">Thinreports コミュニティの今後</title>
+    <published>2015-01-09T10:00:00Z</published>
+    <updated>2015-01-09T10:00:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2015/01/future-of-thinreports-community/"/>
+    <content type="html">
+&lt;p&gt;現在私たちは Thinreports の開発に参加しやすい環境を作ることに取り組んでいます。
+若干昨年の &lt;a href="/news/2014/08/future-of-thinreports/"&gt;このエントリー&lt;/a&gt; と重複する内容もありますが、
+私たちが目指している開発コミュニティとその取り組みについて簡単にお話します。&lt;/p&gt;
+
+&lt;h3&gt;何をしようとしているのか&lt;/h3&gt;
+
+&lt;p&gt;一言で言うと完全なオープン化です。&lt;/p&gt;
+
+&lt;p&gt;具体的には、Thinreports の内部仕様を含め Thinreports の開発に必要な情報や手順をすべて公開したり、
+公式サイトやドキュメントなど一部のメンバーしか管理することができなかったコンテンツを
+誰もが（間接的であれ）管理することができるようにオープンな仕組みへ移行するといったことをしています。&lt;/p&gt;
+
+&lt;p&gt;また、情報や環境だけでなく、活動そのものもオープン化して
+Thinreports の設計や開発に積極的にコミュニティを巻き込んでいきたいと思っています。
+例えば、新機能のコンセプトラフを Wiki にまとめて、コミュニティにレビューをお願いしたり、
+足りないドキュメントが無いか相談したり、新しいドキュメントのレビューをお願いするなどです。&lt;/p&gt;
+
+&lt;h3&gt;なぜか&lt;/h3&gt;
+
+&lt;p&gt;もっとたくさんの人と一緒に Thinreports を育てる活動をしたいからです。
+その中で、一緒に開発やドキュメントの整備をしてくれる人が増えれば言うことはありません。&lt;/p&gt;
+
+&lt;h3&gt;やってること、やろうとしていること&lt;/h3&gt;
+
+&lt;p&gt;すでに完了した取り組みも含めて以下のような活動を行っています。&lt;/p&gt;
+
+&lt;h4&gt;内部仕様の公開&lt;/h4&gt;
+
+&lt;p&gt;レイアウトファイル &lt;code&gt;.tlf&lt;/code&gt; 内の Schema を公開します。
+実はすでに &lt;a href="https://github.com/thinreports/thinreports"&gt;https://github.com/thinreports/thinreports&lt;/a&gt; で一部公開済みです。&lt;/p&gt;
+
+&lt;h4&gt;開発者向けドキュメントの整備&lt;/h4&gt;
+
+&lt;p&gt;Thinreports の開発を行うための環境を整える手順を作成して公開します。
+特に Editor の開発にはいろいろなツールやいろいろな手順が必要なので、まずは Editor を中心にまとめるつもりです。
+ドキュメントは &lt;a href="https://github.com/thinreports/thinreports"&gt;https://github.com/thinreports/thinreports&lt;/a&gt; で公開します。&lt;/p&gt;
+
+&lt;h4&gt;ユーザドキュメントの充実とオープン化&lt;/h4&gt;
+
+&lt;p&gt;これについては、昨年の &lt;a href="/news/2014/08/future-of-thinreports/"&gt;このエントリー&lt;/a&gt; でも触れていますが、
+ドキュメントページを GitHub Pages + Jekyll へ移行したり、Generator の API ドキュメントを整備したりします。&lt;/p&gt;
+
+&lt;h4&gt;メーリングリストへの移行&lt;/h4&gt;
+
+&lt;p&gt;これも &lt;a href="/news/2014/08/future-of-thinreports/"&gt;このエントリー&lt;/a&gt; で説明している通りですでに完了しています。
+メーリングリストは &lt;a href="https://groups.google.com/forum/#!forum/thinreports"&gt;こちら&lt;/a&gt; です。ぜひ登録を！&lt;/p&gt;
+
+&lt;h4&gt;ロゴデータの公開&lt;/h4&gt;
+
+&lt;p&gt;イベントや資料などで気軽に使えるように、公式ロゴの画像データを公開します。&lt;/p&gt;
+
+&lt;p&gt;以上です。&lt;br&gt;
+この私たちの取り組みについて意見やアドバイスをいただけるととてもうれしいです。もちろん、コミュニティへの参加も！&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2014-08-13:/news/2014/08/editor-0_7_7_2-released/</id>
     <title type="html">Editor 0.7.7.2 released</title>
@@ -236,24 +297,5 @@ v1.0.0 では、内部ライブラリ prawn を最新版にアップデートす
 &lt;p&gt;&lt;img src="images/site-translation.png" alt="言語切り替え"&gt;&lt;/p&gt;
 
 &lt;p&gt;ぜひご活用下さい。また、よろしければ翻訳改善にご協力ください。&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2014-07-02:/news/2014/07/official-mailing-list-now-ready/</id>
-    <title type="html">公式メーリングリストを作成しました</title>
-    <published>2014-07-02T16:16:00Z</published>
-    <updated>2014-07-02T16:16:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2014/07/official-mailing-list-now-ready/"/>
-    <content type="html">
-&lt;p&gt;ThinReports の公式フォーラムを廃止し、公式メーリングリストを作成しました。&lt;/p&gt;
-
-&lt;p&gt;これまで、公式フォーラムとして ThinReports プロジェクトサイトのフォーラムを利用してきましたが、これを廃止し、新たに &lt;a href="https://groups.google.com/forum/#!forum/thinreports"&gt;公式メーリングリスト&lt;/a&gt; を作成しました。これまで ThinReports プロジェクトサイトのフォーラムをご利用いただいていた方は、大変お手数ですが、公式メーリングリストへの登録をお願いします。&lt;/p&gt;
-
-&lt;p&gt;なお、廃止後も、当面の間は旧フォーラムを閲覧することができます。&lt;/p&gt;
-
-&lt;h3&gt;関連情報&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://groups.google.com/forum/#!forum/thinreports"&gt;ThinReports Official Mailing List&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
   </entry>
 </feed>
