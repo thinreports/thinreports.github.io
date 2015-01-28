@@ -2,13 +2,81 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>ThinReports News</title>
-  <updated>2015-01-16T08:46:00Z</updated>
+  <updated>2015-01-28T15:50:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>ThinReports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2015-01-28:/news/2015/01/documentation-page-was-renewed/</id>
+    <title type="html">ドキュメントページのリニューアルとコントリビュートガイドの公開</title>
+    <published>2015-01-28T15:50:00Z</published>
+    <updated>2015-01-28T15:50:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2015/01/documentation-page-was-renewed/"/>
+    <content type="html">
+&lt;p&gt;2つお知らせがあります。&lt;/p&gt;
+
+&lt;h3&gt;ドキュメントページのリニューアルと引越し&lt;/h3&gt;
+
+&lt;p&gt;これまで Thinreports のドキュメントは &lt;a href="http://osc.matsukei.net/projects/thinreports/wiki"&gt;osc.matsukei.net&lt;/a&gt; で
+公開していましたが、リニューアルととも &lt;a href="http://www.thinreports.org/documentation/"&gt;thinreports.org/documentation&lt;/a&gt; へ引越ししました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="images/new-document-site.png" alt="New Documentation Site"&gt;&lt;/p&gt;
+
+&lt;p&gt;新ドキュメントページの特徴は下記の通りです:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GitHub Pages + Jekyll で作成&lt;/li&gt;
+  &lt;li&gt;GitHub リポジトリは &lt;a href="https://github.com/thinreports/documentation"&gt;github.com/thinreports/documentation&lt;/a&gt; です&lt;/li&gt;
+  &lt;li&gt;他言語対応は Google Translate を使っています。&lt;strong&gt;翻訳結果の改善にご協力ください&lt;/strong&gt;（詳細は &lt;a href="https://github.com/thinreports/documentation#contributing-to-thinreports-documentation"&gt;こちら&lt;/a&gt;）&lt;/li&gt;
+  &lt;li&gt;間違いの報告や提案、Pull Request も上記 GitHub よりお願いします&lt;/li&gt;
+  &lt;li&gt;貢献方法の詳細は &lt;a href="https://github.com/thinreports/documentation#contributing-to-thinreports-documentation"&gt;README&lt;/a&gt; をご覧ください&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;なお、これによって、旧プロジェクト &lt;a href="http://osc.matsukei.net/projects/thinreports"&gt;osc.matsukei.net&lt;/a&gt;
+のほぼすべての情報の移行が完了したことになるため、近い将来 &lt;a href="http://osc.matsukei.net/projects/thinreports"&gt;osc.matsukei.net&lt;/a&gt; は閉鎖されます。下記に対応表を掲載しておきます。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th&gt; &lt;/th&gt;
+      &lt;th style="text-align: left"&gt;今&lt;/th&gt;
+      &lt;th style="text-align: left"&gt;昔&lt;/th&gt;
+    &lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Issues&lt;/td&gt;
+      &lt;td style="text-align: left"&gt;
+&lt;a href="https://github.com/thinreports/thinreports-editor/issues"&gt;Editor(GitHub)&lt;/a&gt; / &lt;a href="https://github.com/thinreports/thinreports-generator/issues"&gt;Generator(GitHub)&lt;/a&gt;
+&lt;/td&gt;
+      &lt;td style="text-align: left"&gt;&lt;a href="http://osc.matsukei.net/projects/thinreports/issues"&gt;osc.matsukei.net&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Discussion Group&lt;/td&gt;
+      &lt;td style="text-align: left"&gt;&lt;a href="https://groups.google.com/forum/#!forum/thinreports"&gt;Google Groups&lt;/a&gt;&lt;/td&gt;
+      &lt;td style="text-align: left"&gt;&lt;a href="http://osc.matsukei.net/projects/thinreports/boards"&gt;osc.matsukei.net&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Documentation&lt;/td&gt;
+      &lt;td style="text-align: left"&gt;&lt;a href="http://www.thinreports.org/documentation"&gt;thinreports.org/documentation&lt;/a&gt;&lt;/td&gt;
+      &lt;td style="text-align: left"&gt;&lt;a href="http://osc.matsukei.net/projects/thinreports/wiki"&gt;osc.matsukei.net&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Examples&lt;/td&gt;
+      &lt;td style="text-align: left"&gt;&lt;a href="https://github.com/thinreports/thinreports-examples"&gt;GitHub&lt;/a&gt;&lt;/td&gt;
+      &lt;td style="text-align: left"&gt;&lt;a href="http://osc.matsukei.net/projects/thinreports/issues"&gt;osc.matsukei.net&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;h3&gt;コントリビュートガイドの公開&lt;/h3&gt;
+
+&lt;p&gt;新ドキュメントの間違い報告や Editor と Generator の開発への貢献など、
+Thinreports へのコントリビュートガイドを
+&lt;a href="https://github.com/thinreports/thinreports"&gt;thinreports/thinreports&lt;/a&gt; の
+&lt;a href="https://github.com/thinreports/thinreports/wiki/How-to%3A-Contributing-to-Thinreports"&gt;Wiki&lt;/a&gt; にまとめました。&lt;/p&gt;
+
+&lt;p&gt;また、Editor や Generator の開発環境を構築する手順など、
+これまで不足していた開発に参加するために必要な手順や情報についても順次掲載していきますので、
+Thinreports へのコントリビュートをお待ちしています。&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2015-01-16:/news/2015/01/posted-the-case5/</id>
     <title type="html">事例#5「自社パッケージ製品の 70 種類にも及ぶ帳票出力に採用」を掲載</title>
@@ -275,25 +343,6 @@ v1.0.0 では、内部ライブラリ prawn を最新版にアップデートす
 
 &lt;p&gt;これについては、今後 &lt;a href="http://repoten-api.net/"&gt;REPOTEN-API&lt;/a&gt; や &lt;a href="http://repoten.tumblr.com/"&gt;公式ブログ&lt;/a&gt; 、
 &lt;a class="twitter notranslate" href="https://twitter.com/repoten_team"&gt;@repoten_team&lt;/a&gt; をチェックして下さい。&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2014-07-23:/news/2014/07/move-to-github-pages/</id>
-    <title type="html">公式サイトを GitHub Pages へ移行しました</title>
-    <published>2014-07-23T21:59:00Z</published>
-    <updated>2014-07-23T21:59:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2014/07/move-to-github-pages/"/>
-    <content type="html">
-&lt;p&gt;公式サイト www.thinreports.org を GitHub Pages へ完全に移行しました。  &lt;/p&gt;
-
-&lt;p&gt;移行した理由は以下の通りです。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;デプロイを自動化し &lt;a class="twitter notranslate" href="https://twitter.com/hidakatsuya"&gt;@hidakatsuya&lt;/a&gt; のような特定のユーザだけでなく、コミュニティによる更新が可能な環境へ&lt;/li&gt;
-  &lt;li&gt;旧ホスティングサーバのメンテナンス業からの解放&lt;/li&gt;
-&lt;/ol&gt;&lt;p&gt;www.thinreports.org は、 Ruby 製静的サイトジェネレーター &lt;a href="http://nanoc.ws/"&gt;nanoc&lt;/a&gt; によって管理されており、
-そのソースコードは &lt;a href="https://github.com/thinreports/thinreports.org"&gt;GitHub&lt;/a&gt; にて公開しています。サイトのリンク切れや間違いを見つけたら &lt;a href="https://github.com/thinreports/thinreports.org/issues/new"&gt;こちら&lt;/a&gt; よりご報告いただけると嬉しいです。もちろん Pull Request もお待ちしております（近く、ローカル環境でのサイト開発、確認方法を含めた Pull Request 手順をまとめます）&lt;/p&gt;
-
-&lt;p&gt;また、サイトのソースコードや更新履歴は &lt;a href="https://github.com/thinreports/thinreports.github.io"&gt;thinreports.github.io&lt;/a&gt; にて確認できます。&lt;/p&gt;</content>
   </entry>
 </feed>
 

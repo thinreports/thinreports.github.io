@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Download | ThinReports - 帳票ソリューション for Ruby and Rails</title>
+    <title>ドキュメントページのリニューアルとコントリビュートガイドの公開 | ThinReports - 帳票ソリューション for Ruby and Rails</title>
     <link rel="alternate" type="application/atom+xml" title="Atom" href="/news/feed.xml">
-    <meta property="og:title" content="Download | ThinReports">
+    <meta property="og:title" content="ドキュメントページのリニューアルとコントリビュートガイドの公開 | ThinReports">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://www.thinreports.org/download/">
+<meta property="og:url" content="http://www.thinreports.org/news/2015/01/documentation-page-was-renewed/">
 <meta property="og:site_name" content="ThinReports - 帳票ソリューション for Ruby and Rails">
 <meta property="og:image" content="http://www.thinreports.org/assets/images/thinreports-logo-v.png">
 <meta property="fb:admins" content="100001000444231">
@@ -65,9 +65,9 @@ function googleTranslateElementInit() {
           <div id="nav" class="notranslate">
             <ul>
   <li><a href="/">Top</a></li>
-  <li><a href="/news/">News</a></li>
+  <li><span class="active" title="You're here.">News</span></li>
   <li><strong><a href="/community/">Community</a></strong></li>
-  <li><span class="active" title="You're here.">Download</span></li>
+  <li><a href="/download/">Download</a></li>
   <li><a href="/documentation/">Documentation</a></li>
   <li><a href="/features/">Features</a></li>
   <li><a href="/case/">Case</a></li>
@@ -107,85 +107,107 @@ function googleTranslateElementInit() {
 </dl>
           </div>
         </div>
-        <div id="content" class="content-download">
+        <div id="content" class="content-news-post">
         
+          <div class="back-to-all-news">
+  <a href="/news/">News</a>
+</div>
+
+<h2>ドキュメントページのリニューアルとコントリビュートガイドの公開</h2>
+
+<div class="meta">
+  2015.01.28
+  
+    / written by <a class="twitter notranslate" href="https://twitter.com/hidakatsuya">@hidakatsuya</a>
+  
+</div>
+
+
+            
+<p>2つお知らせがあります。</p>
+
+<h3>ドキュメントページのリニューアルと引越し</h3>
+
+<p>これまで Thinreports のドキュメントは <a href="http://osc.matsukei.net/projects/thinreports/wiki">osc.matsukei.net</a> で
+公開していましたが、リニューアルととも <a href="http://www.thinreports.org/documentation/">thinreports.org/documentation</a> へ引越ししました。</p>
+
+<p><img src="images/new-document-site.png" alt="New Documentation Site"></p>
+
+<p>新ドキュメントページの特徴は下記の通りです:</p>
+
+<ul>
+<li>GitHub Pages + Jekyll で作成</li>
+  <li>GitHub リポジトリは <a href="https://github.com/thinreports/documentation">github.com/thinreports/documentation</a> です</li>
+  <li>他言語対応は Google Translate を使っています。<strong>翻訳結果の改善にご協力ください</strong>（詳細は <a href="https://github.com/thinreports/documentation#contributing-to-thinreports-documentation">こちら</a>）</li>
+  <li>間違いの報告や提案、Pull Request も上記 GitHub よりお願いします</li>
+  <li>貢献方法の詳細は <a href="https://github.com/thinreports/documentation#contributing-to-thinreports-documentation">README</a> をご覧ください</li>
+</ul><p>なお、これによって、旧プロジェクト <a href="http://osc.matsukei.net/projects/thinreports">osc.matsukei.net</a>
+のほぼすべての情報の移行が完了したことになるため、近い将来 <a href="http://osc.matsukei.net/projects/thinreports">osc.matsukei.net</a> は閉鎖されます。下記に対応表を掲載しておきます。</p>
+
+<table>
+<thead><tr>
+<th> </th>
+      <th style="text-align: left">今</th>
+      <th style="text-align: left">昔</th>
+    </tr></thead>
+<tbody>
+<tr>
+<td>Issues</td>
+      <td style="text-align: left">
+<a href="https://github.com/thinreports/thinreports-editor/issues">Editor(GitHub)</a> / <a href="https://github.com/thinreports/thinreports-generator/issues">Generator(GitHub)</a>
+</td>
+      <td style="text-align: left"><a href="http://osc.matsukei.net/projects/thinreports/issues">osc.matsukei.net</a></td>
+    </tr>
+<tr>
+<td>Discussion Group</td>
+      <td style="text-align: left"><a href="https://groups.google.com/forum/#!forum/thinreports">Google Groups</a></td>
+      <td style="text-align: left"><a href="http://osc.matsukei.net/projects/thinreports/boards">osc.matsukei.net</a></td>
+    </tr>
+<tr>
+<td>Documentation</td>
+      <td style="text-align: left"><a href="http://www.thinreports.org/documentation">thinreports.org/documentation</a></td>
+      <td style="text-align: left"><a href="http://osc.matsukei.net/projects/thinreports/wiki">osc.matsukei.net</a></td>
+    </tr>
+<tr>
+<td>Examples</td>
+      <td style="text-align: left"><a href="https://github.com/thinreports/thinreports-examples">GitHub</a></td>
+      <td style="text-align: left"><a href="http://osc.matsukei.net/projects/thinreports/issues">osc.matsukei.net</a></td>
+    </tr>
+</tbody>
+</table><h3>コントリビュートガイドの公開</h3>
+
+<p>新ドキュメントの間違い報告や Editor と Generator の開発への貢献など、
+Thinreports へのコントリビュートガイドを
+<a href="https://github.com/thinreports/thinreports">thinreports/thinreports</a> の
+<a href="https://github.com/thinreports/thinreports/wiki/How-to%3A-Contributing-to-Thinreports">Wiki</a> にまとめました。</p>
+
+<p>また、Editor や Generator の開発環境を構築する手順など、
+これまで不足していた開発に参加するために必要な手順や情報についても順次掲載していきますので、
+Thinreports へのコントリビュートをお待ちしています。</p>
           
-<h2>Download</h2>
 
-<div id="release-info" class="box">
-  <dl class="clearfix">
-<dt>Latest release 0.7.7.2</dt>
-    <dd>2014.08.13</dd>
-  </dl>
-<ul class="navigates clearfix">
-<li>
-      <span class="navigate">Changelog:
-        <a href="https://github.com/thinreports/thinreports-editor/blob/master/doc/CHANGELOG.md">Editor</a> /
-        <a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md">Generator</a>
-      </span>
-    </li>
-    <li><a class="navigate" href="/news/2014/08/editor-0_7_7_2-released/">Announce</a></li>
-    <li><a class="navigate" href="http://osc.matsukei.net/projects/thinreports/wiki/Getting_Started">Getting Started</a></li>
-  </ul>
+<div class="share">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="News - ドキュメントページのリニューアルとコントリビュートガイドの公開 | ThinReports" data-via="thinreports_org" data-hashtags="ThinReports">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
 
-<div id="release-files">
-  <h3>Latest Release</h3>
+<div class="comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'thinreports-org'; // required: replace example with your forum shortname
 
-  <h4>ThinReports Editor 0.7.7.2</h4>
-  <table class="file-list"><tbody>
-<tr>
-<th>for Windows XP/7/8/8.1</th>
-        <td class="md5">b0667e4fb47f8ead4e35bb6dcf9d0618</td>
-        <td class="size">34.1 MB</td>
-        <td class="button"><a title="Download ThinReportsEditor-0.7.7.2-mswin.exe from ThinReports Project in Sourceforge.net" href="http://sourceforge.net/projects/thinreports/files/0.7.7.2/ThinReportsEditor-0.7.7.2-mswin.exe/download">DOWNLOAD</a></td>
-      </tr>
-<tr>
-<th>for Mac OS X 10.7/10.8/10.9</th>
-        <td class="md5">1b8905b0448793c6ccd95bc48083602f</td>
-        <td class="size">49.7 MB</td>
-        <td class="button"><a title="Download ThinReportsEditor-0.7.7.2-macosx.dmg from ThinReports Project in Sourceforge.net" href="http://sourceforge.net/projects/thinreports/files/0.7.7.2/ThinReportsEditor-0.7.7.2-macosx.dmg/download">DOWNLOAD</a></td>
-      </tr>
-<tr>
-<th>for Linux 32bit (Tested with Ubuntu 14.04)</th>
-        <td class="md5">07c6fcc7155b2f3571cbce49e0fc6c7c</td>
-        <td class="size">53.3 MB</td>
-        <td class="button"><a title="Download ThinReportsEditor-0.7.7.2-linux-x86.tar.gz from ThinReports Project in Sourceforge.net" href="http://sourceforge.net/projects/thinreports/files/0.7.7.2/ThinReportsEditor-0.7.7.2-linux-x86.tar.gz/download">DOWNLOAD</a></td>
-      </tr>
-<tr>
-<th>for Linux 64bit (Tested with Ubuntu 14.04)</th>
-        <td class="md5">cc351bd1be7f9c60d3e14d33cf442996</td>
-        <td class="size">53.0 MB</td>
-        <td class="button"><a title="Download ThinReportsEditor-0.7.7.2-linux-x64.tar.gz from ThinReports Project in Sourceforge.net" href="http://sourceforge.net/projects/thinreports/files/0.7.7.2/ThinReportsEditor-0.7.7.2-linux-x64.tar.gz/download">DOWNLOAD</a></td>
-      </tr>
-</tbody></table>
-<ul class="navigates clearfix">
-<li><a href="/features/editor/">Features</a></li>
-    <li><a href="/documentation/">Documents</a></li>
-    <li><a href="/documentation/getting-started/installation.html">Installation Guide</a></li>
-  </ul>
-<h4>ThinReports Generator for Ruby 0.7.7</h4>
-  <table class="file-list"><tbody><tr>
-<th>RubyGems Package</th>
-        <td class="md5">5fc443b2455ef9576e9f4e051532a0c1</td>
-        <td class="size">20.1 MB</td>
-        <td class="button"><a title="Download thinreports-0.7.7.gem from ThinReports Project in Sourceforge.net" href="http://sourceforge.net/projects/thinreports/files/0.7.7/thinreports-0.7.7.gem/download">DOWNLOAD</a></td>
-      
-      </tr></tbody></table>
-<ul class="navigates clearfix">
-<li><a href="/features/generator/">Features</a></li>
-    <li><a href="/documentation/">Documents</a></li>
-    <li><a href="/documentation/getting-started/installation.html">Installation Guide</a></li>
-    <li><a href="http://badge.fury.io/rb/thinreports"><img src="https://badge.fury.io/rb/thinreports@2x.png" alt="Gem Version" height="18"></a></li>
-  </ul>
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
 
-<div class="section">
-  <h3>Previous Releases</h3>
-  <p>
-    <a class="navigate" href="https://sourceforge.net/projects/thinreports/files/">All releases on SourceForge.net</a>
-  </p>
-</div>
         
         </div>
       </div>
@@ -195,9 +217,9 @@ function googleTranslateElementInit() {
   <div class="links">
     <ul>
   <li><a href="/">Top</a></li>
-  <li><a href="/news/">News</a></li>
+  <li><span class="active" title="You're here.">News</span></li>
   <li><strong><a href="/community/">Community</a></strong></li>
-  <li><span class="active" title="You're here.">Download</span></li>
+  <li><a href="/download/">Download</a></li>
   <li><a href="/documentation/">Documentation</a></li>
   <li><a href="/features/">Features</a></li>
   <li><a href="/case/">Case</a></li>
