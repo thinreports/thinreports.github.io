@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
-  <title>ThinReports News</title>
+  <title>Thinreports News</title>
   <updated>2015-01-28T15:50:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
-    <name>ThinReports.org</name>
+    <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
   <entry>
@@ -159,7 +159,7 @@ Thinreports の設計や開発に積極的にコミュニティを巻き込ん�
     <updated>2014-08-13T18:46:00Z</updated>
     <link rel="alternate" href="http://www.thinreports.org/news/2014/08/editor-0_7_7_2-released/"/>
     <content type="html">
-&lt;p&gt;ThinReports Editor 0.7.7.2 をリリースしました。&lt;/p&gt;
+&lt;p&gt;Thinreports Editor 0.7.7.2 をリリースしました。&lt;/p&gt;
 
 &lt;p&gt;Editor の 3 件のバグを修正しています。Generator のリリースはありません。&lt;/p&gt;
 
@@ -182,19 +182,19 @@ Thinreports の設計や開発に積極的にコミュニティを巻き込ん�
   </entry>
   <entry>
     <id>tag:www.thinreports.org,2014-08-10:/news/2014/08/future-of-thinreports/</id>
-    <title type="html">ThinReports の今後</title>
+    <title type="html">Thinreports の今後</title>
     <published>2014-08-10T10:13:00Z</published>
     <updated>2014-08-10T10:13:00Z</updated>
     <link rel="alternate" href="http://www.thinreports.org/news/2014/08/future-of-thinreports/"/>
     <content type="html">
-&lt;p&gt;ThinReports の今後についてまとめておきたいと思います。&lt;/p&gt;
+&lt;p&gt;Thinreports の今後についてまとめておきたいと思います。&lt;/p&gt;
 
 &lt;h3&gt;コミュニティ主導へ&lt;/h3&gt;
 
-&lt;p&gt;これまで ThinReports ユーザの皆さんからたくさんの要望やバグ報告、そして中には PullRequest もいただきました。
-そのおかげで、少しずつではありますが ThinReports も前に進むことができていると思います。ありがとうございます。&lt;/p&gt;
+&lt;p&gt;これまで Thinreports ユーザの皆さんからたくさんの要望やバグ報告、そして中には PullRequest もいただきました。
+そのおかげで、少しずつではありますが Thinreports も前に進むことができていると思います。ありがとうございます。&lt;/p&gt;
 
-&lt;p&gt;しかし、皆さんからいただいたたくさんの要望やご意見によって ThinReports に足りない機能や
+&lt;p&gt;しかし、皆さんからいただいたたくさんの要望やご意見によって Thinreports に足りない機能や
 改善が必要なところがはっきりしているにも関わらず、その開発が全く進んでいないという現状があります。&lt;/p&gt;
 
 &lt;p&gt;その主な原因を以下の通りと考えています。&lt;/p&gt;
@@ -224,12 +224,12 @@ PullRequest や Issues によって誰でもサイト更新に関わることが
 でアナウンスした通り既に完了しています。旧フォーラムに登録されていた方々には移行をお願いすることとなりご迷惑をおかけしました。&lt;/p&gt;
 
 &lt;p&gt;今回の移行は、旧フォーラムのあったプロジェクトサイト &lt;a href="http://osc.matsukei.net"&gt;osc.matsukei.net&lt;/a&gt; の
-閉鎖へ向けた対応の一つですが、もっと気軽に、もっとオープンに ThinReports に関するディスカッションができる場を作りたかったこと、
+閉鎖へ向けた対応の一つですが、もっと気軽に、もっとオープンに Thinreports に関するディスカッションができる場を作りたかったこと、
 旧フォーラムではユーザの投稿したメッセージが他のユーザに通知されないなど改善が必要だったことが主な理由です。&lt;/p&gt;
 
 &lt;h4&gt;ドキュメントサイトの GitHub Pages への移行と充実&lt;/h4&gt;
 
-&lt;p&gt;ThinReports のドキュメントはプロジェクトサイト上で &lt;a href="http://osc.matsukei.net/projects/thinreports/wiki"&gt;日本語版&lt;/a&gt; と &lt;a href="http://osc.matsukei.net/projects/thinreports/wiki/En_Overview"&gt;英語版&lt;/a&gt;（by Pawit Khid-arn さん）を公開しています。
+&lt;p&gt;Thinreports のドキュメントはプロジェクトサイト上で &lt;a href="http://osc.matsukei.net/projects/thinreports/wiki"&gt;日本語版&lt;/a&gt; と &lt;a href="http://osc.matsukei.net/projects/thinreports/wiki/En_Overview"&gt;英語版&lt;/a&gt;（by Pawit Khid-arn さん）を公開しています。
 ただ、現在のドキュメントには二つの問題があると思っています。&lt;/p&gt;
 
 &lt;p&gt;一つ目は、 &lt;strong&gt;ユーザがドキュメントを編集する簡単な手段がない&lt;/strong&gt; ことです。&lt;/p&gt;
@@ -242,7 +242,7 @@ PullRequest や Issues によって誰でもサイト更新に関わることが
 
 &lt;p&gt;二つ目は、 &lt;strong&gt;ドキュメントが貧弱すぎる点&lt;/strong&gt; です。&lt;/p&gt;
 
-&lt;p&gt;ThinReports で PDF を作成するためには、
+&lt;p&gt;Thinreports で PDF を作成するためには、
 Editor で作成したレイアウトを読み込み、値を埋め込んだり一覧表を作成するためのコードを書く必要があります。
 しかし、現在のドキュメントには Generator の各 API の説明やサンプルコード、Tips がほとんどなく、
 ちょっと複雑なことをしようとすると壁にぶち当たってしまうことが多いようです。
@@ -255,15 +255,15 @@ Editor で作成したレイアウトを読み込み、値を埋め込んだり�
 &lt;a href="https://github.com/thinreports/thinreports-generator/issues"&gt;Issues for Generator&lt;/a&gt;
 それぞれで開発タスクやロードマップの管理をゆるく行います。バグ報告や機能の提案等はこちらからお願いします。&lt;/p&gt;
 
-&lt;p&gt;また、後述する ThinReports の内部仕様など、開発に関するドキュメントは
-ThinReports のルートプロジェクト &lt;a href="https://github.com/thinreports/thinreports"&gt;github.com/thinreports/thinreports&lt;/a&gt; の Wiki に集めます。&lt;/p&gt;
+&lt;p&gt;また、後述する Thinreports の内部仕様など、開発に関するドキュメントは
+Thinreports のルートプロジェクト &lt;a href="https://github.com/thinreports/thinreports"&gt;github.com/thinreports/thinreports&lt;/a&gt; の Wiki に集めます。&lt;/p&gt;
 
 &lt;h4&gt;内部仕様の公開&lt;/h4&gt;
 
 &lt;p&gt;内部仕様というよりも、 &lt;code&gt;.tlf&lt;/code&gt; ファイルのスキーマと言った方が良いかもしれませんが、
-現在このレイアウトファイルの仕様を公開する準備を進めています。仕様は &lt;a href="https://github.com/thinreports/thinreports"&gt;ThinReports のルートプロジェクト&lt;/a&gt;
-の Wiki にまとめる予定です。仕様を知ることで ThinReports の仕組みを理解することができ、
-コミュニティによる開発の促進や ThinReports を使った新たな OSS が生まれることを期待しています。&lt;/p&gt;
+現在このレイアウトファイルの仕様を公開する準備を進めています。仕様は &lt;a href="https://github.com/thinreports/thinreports"&gt;Thinreports のルートプロジェクト&lt;/a&gt;
+の Wiki にまとめる予定です。仕様を知ることで Thinreports の仕組みを理解することができ、
+コミュニティによる開発の促進や Thinreports を使った新たな OSS が生まれることを期待しています。&lt;/p&gt;
 
 &lt;h3&gt;ざっくりしたロードマップと今後&lt;/h3&gt;
 
@@ -274,10 +274,10 @@ ThinReports のルートプロジェクト &lt;a href="https://github.com/thinre
 
 &lt;h5&gt;カスタムフォント&lt;/h5&gt;
 
-&lt;p&gt;各方面より最も多くいただいている機能です。この機能によりビルトインフォント以外のフォントを ThinReports で利用することができるようになります。
+&lt;p&gt;各方面より最も多くいただいている機能です。この機能によりビルトインフォント以外のフォントを Thinreports で利用することができるようになります。
 ただ、内部ライブラリの制約により、利用できるフォントは TrueTypeFont &lt;code&gt;.ttf&lt;/code&gt; に限られる予定ですが、
 なんとか &lt;a href="http://www.google.com/get/noto/#/family/noto-sans-jpan"&gt;Noto Sans CJK&lt;/a&gt; を
-ThinReports で簡単に利用できるような仕組みも考えたいと強く思っています（ Nato Sans CJK は OpenTypeFont &lt;code&gt;.otf&lt;/code&gt; 形式）&lt;/p&gt;
+Thinreports で簡単に利用できるような仕組みも考えたいと強く思っています（ Nato Sans CJK は OpenTypeFont &lt;code&gt;.otf&lt;/code&gt; 形式）&lt;/p&gt;
 
 &lt;h5&gt;リスト機能の改善&lt;/h5&gt;
 
@@ -319,10 +319,10 @@ v1.0.0 では、内部ライブラリ prawn を最新版にアップデートす
 &lt;p&gt;そこで v1.0.0 では &lt;a href="https://developer.chrome.com/apps/about_apps"&gt;ChromeApp&lt;/a&gt; ベースの Editor をリリースします。
 というのも、Editor の &lt;a href="https://github.com/thinreports/thinreports-editor"&gt;master&lt;/a&gt; では既に ChromeApp への移行を完了しています
 （ただ、現状は ChromeApp 上で動くようにしただけの状態でまだまだ開発が必要な状態です）
-これによって ChromeApp が動作するプラットフォームであればどれでも利用できるようになりますし、リソースの削減やアプリ自体がシンプルになるなど、
+これによって ChromeApp が動���するプラットフォームであればどれでも利用できるようになりますし、リソースの削減やアプリ自体がシンプルになるなど、
 さまざまな問題を解決できるのではと考えています。&lt;/p&gt;
 
-&lt;h4&gt;ThinReports Generator for PHP&lt;/h4&gt;
+&lt;h4&gt;Thinreports Generator for PHP&lt;/h4&gt;
 
 &lt;p&gt;リリース当初から “PHP 版ないの?” という要望をいただいていることもあり、今年の秋を目処に PHP 版 Generator の開発着手を予定しています。&lt;/p&gt;
 
@@ -336,7 +336,7 @@ v1.0.0 では、内部ライブラリ prawn を最新版にアップデートす
 
 &lt;h4&gt;レイアウトファイルの共有&lt;/h4&gt;
 
-&lt;p&gt;これは ThinReports そのものの話ではないのですが、 API 経由で ThinReports を利用できる &lt;a href="http://repoten-api.net/"&gt;REPOTEN-API&lt;/a&gt; で
+&lt;p&gt;これは Thinreports そのものの話ではないのですが、 API 経由で Thinreports を利用できる &lt;a href="http://repoten-api.net/"&gt;REPOTEN-API&lt;/a&gt; で
 テンプレートをシェアできる機能を構築する予定があるようです。
 イメージ的には、各ユーザが公開しているテンプレートをショーケースのように閲覧できて、
 ダウンロードしたり API から使ってみることができるような感じでしょうか。&lt;/p&gt;
