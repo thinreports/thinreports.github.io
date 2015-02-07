@@ -2,13 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2015-01-28T15:50:00Z</updated>
+  <updated>2015-02-08T02:12:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2015-02-08:/news/2015/02/changed-the-official-name/</id>
+    <title type="html">Change the official name</title>
+    <published>2015-02-08T02:12:00Z</published>
+    <updated>2015-02-08T02:12:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2015/02/changed-the-official-name/"/>
+    <content type="html">
+&lt;p&gt;正式名称を ThinReports から &lt;strong&gt;Thinreports&lt;/strong&gt; に変更しましたのでお知らせします。
+&lt;code&gt;Reports&lt;/code&gt; の &lt;code&gt;R&lt;/code&gt; を大文字から小文字に変更しています。
+すでに公式サイトや GitHub、ソーシャルアカウントなどへの対応が完了しています。
+ロゴの変更はありません。&lt;/p&gt;
+
+&lt;h3&gt;Generator のモジュール名変更とその影響&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://rubygems.org/gems/thinreports"&gt;Generator&lt;/a&gt; は、
+一般的に以下のように &lt;code&gt;ThinReports::&lt;/code&gt; 名前空間（モジュール）を付けて利用されます。&lt;/p&gt;
+
+&lt;div class="CodeRay"&gt;&lt;div class="code"&gt;&lt;pre&gt;&lt;code class="language-ruby"&gt;report = &lt;span class="constant"&gt;ThinReports&lt;/span&gt;::&lt;span class="constant"&gt;Report&lt;/span&gt;.new &lt;span class="key"&gt;layout&lt;/span&gt;: &lt;span class="string"&gt;&lt;span class="delimiter"&gt;'&lt;/span&gt;&lt;span class="content"&gt;foo.tlf&lt;/span&gt;&lt;span class="delimiter"&gt;'&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;次回リリース（0.8 を予定）にて、この名前空間である &lt;code&gt;ThinReports&lt;/code&gt; についても &lt;code&gt;Thinreports&lt;/code&gt; へ変更されますが、
+次回リリースの段階では &lt;code&gt;ThinReports&lt;/code&gt; を &lt;code&gt;Thinreports&lt;/code&gt; のエイリアスとするため
+引き続き &lt;code&gt;ThinReports::&lt;/code&gt; を利用することができます。そのため、次回リリースへのアップグレードによって
+既存のコードを変更する必要はありません。&lt;/p&gt;
+
+&lt;p&gt;しかし、その後のリリース（例えば 1.0）では &lt;code&gt;ThinReports&lt;/code&gt; は &lt;strong&gt;削除される予定です。&lt;/strong&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2015-01-28:/news/2015/01/documentation-page-was-renewed/</id>
     <title type="html">ドキュメントページのリニューアルとコントリビュートガイドの公開</title>
@@ -179,170 +205,6 @@ Thinreports の設計や開発に積極的にコミュニティを巻き込ん�
 &lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/CHANGELOG.md"&gt;ChangeLog&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="/download/"&gt;Download&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2014-08-10:/news/2014/08/future-of-thinreports/</id>
-    <title type="html">Thinreports の今後</title>
-    <published>2014-08-10T10:13:00Z</published>
-    <updated>2014-08-10T10:13:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2014/08/future-of-thinreports/"/>
-    <content type="html">
-&lt;p&gt;Thinreports の今後についてまとめておきたいと思います。&lt;/p&gt;
-
-&lt;h3&gt;コミュニティ主導へ&lt;/h3&gt;
-
-&lt;p&gt;これまで Thinreports ユーザの皆さんからたくさんの要望やバグ報告、そして中には PullRequest もいただきました。
-そのおかげで、少しずつではありますが Thinreports も前に進むことができていると思います。ありがとうございます。&lt;/p&gt;
-
-&lt;p&gt;しかし、皆さんからいただいたたくさんの要望やご意見によって Thinreports に足りない機能や
-改善が必要なところがはっきりしているにも関わらず、その開発が全く進んでいないという現状があります。&lt;/p&gt;
-
-&lt;p&gt;その主な原因を以下の通りと考えています。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;主要な開発メンバーが二人しかいない（&lt;a class="twitter notranslate" href="https://twitter.com/hidakatsuya"&gt;@hidakatsuya&lt;/a&gt;, &lt;a class="twitter notranslate" href="https://twitter.com/minoru_maeda"&gt;@minoru_maeda&lt;/a&gt;）&lt;/li&gt;
-  &lt;li&gt;帳票レイアウトファイルの仕様が非公開なので、開発に参加しづらい&lt;/li&gt;
-  &lt;li&gt;ドキュメントや公式サイトを上記二人以外が編集する術が無い&lt;/li&gt;
-  &lt;li&gt;公式サイトやプロジェクトサイト &lt;a href="http://osc.matsukei.net"&gt;osc.matsukei.net&lt;/a&gt; のサーバ保守作業がめんどう&lt;/li&gt;
-&lt;/ol&gt;&lt;p&gt;(3)(4) は直接開発に関係無さそうですが、これらの作業が軽減あるいは無くなれば開発に専念するリソースを確保できますし、
-(2) によって、主要メンバー以外でもコアな機能の開発や新しい機能の提案もしやすくなると思っています。&lt;/p&gt;
-
-&lt;p&gt;そして、以上によって OSS でありながらコミュニティの恩恵を受けにくい現状を改善し、
-コミュニティ主導での活発な開発を目指したいと思っています。&lt;/p&gt;
-
-&lt;p&gt;既に完了あるいは進行中のものも含め、具体的には以下のような活動を行います。&lt;/p&gt;
-
-&lt;h4&gt;公式サイトを GitHub Pages へ&lt;/h4&gt;
-
-&lt;p&gt;これは &lt;a href="/news/2014/07/move-to-github-pages/"&gt;2014-07-23: 公式サイトを GitHub Pages へ移行しました&lt;/a&gt;
-でアナウンスしたように既に完了しています。これによって、サーバ保守から解放され、
-PullRequest や Issues によって誰でもサイト更新に関わることができるようになりました。&lt;/p&gt;
-
-&lt;h4&gt;Google Groups に Discussion Group を作成、旧フォーラムを廃止&lt;/h4&gt;
-
-&lt;p&gt;これも &lt;a href="/news/2014/07/official-mailing-list-now-ready/"&gt;2014-07-02: 公式メーリングリストを作成しました&lt;/a&gt;
-でアナウンスした通り既に完了しています。旧フォーラムに登録されていた方々には移行をお願いすることとなりご迷惑をおかけしました。&lt;/p&gt;
-
-&lt;p&gt;今回の移行は、旧フォーラムのあったプロジェクトサイト &lt;a href="http://osc.matsukei.net"&gt;osc.matsukei.net&lt;/a&gt; の
-閉鎖へ向けた対応の一つですが、もっと気軽に、もっとオープンに Thinreports に関するディスカッションができる場を作りたかったこと、
-旧フォーラムではユーザの投稿したメッセージが他のユーザに通知されないなど改善が必要だったことが主な理由です。&lt;/p&gt;
-
-&lt;h4&gt;ドキュメントサイトの GitHub Pages への移行と充実&lt;/h4&gt;
-
-&lt;p&gt;Thinreports のドキュメントはプロジェクトサイト上で &lt;a href="http://osc.matsukei.net/projects/thinreports/wiki"&gt;日本語版&lt;/a&gt; と &lt;a href="http://osc.matsukei.net/projects/thinreports/wiki/En_Overview"&gt;英語版&lt;/a&gt;（by Pawit Khid-arn さん）を公開しています。
-ただ、現在のドキュメントには二つの問題があると思っています。&lt;/p&gt;
-
-&lt;p&gt;一つ目は、 &lt;strong&gt;ユーザがドキュメントを編集する簡単な手段がない&lt;/strong&gt; ことです。&lt;/p&gt;
-
-&lt;p&gt;今後、 &lt;a href="https://github.com/thinreports/documentation"&gt;GitHub Pages&lt;/a&gt; へ移行することによって、
-誰でも PullRequest によるドキュメントの追加や修正ができるようになります。
-新しいドキュメントは &lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt; で管理し、内容は全て Markdown で記述します。
-作成途中ですが、コードは &lt;a href="https://github.com/thinreports/documentation"&gt;GitHub&lt;/a&gt; で確認することができます
-（諸事情により、現在は実際のページを見る事ができません）&lt;/p&gt;
-
-&lt;p&gt;二つ目は、 &lt;strong&gt;ドキュメントが貧弱すぎる点&lt;/strong&gt; です。&lt;/p&gt;
-
-&lt;p&gt;Thinreports で PDF を作成するためには、
-Editor で作成したレイアウトを読み込み、値を埋め込んだり一覧表を作成するためのコードを書く必要があります。
-しかし、現在のドキュメントには Generator の各 API の説明やサンプルコード、Tips がほとんどなく、
-ちょっと複雑なことをしようとすると壁にぶち当たってしまうことが多いようです。
-新しいドキュメントでは、現在のものに加えて API 周りのドキュメントを充実させます。&lt;/p&gt;
-
-&lt;h4&gt;プロジェクトサイトの GitHub への移行&lt;/h4&gt;
-
-&lt;p&gt;現在、プロジェクトサイト &lt;a href="http://osc.matsukei.net"&gt;osc.matsukei.net&lt;/a&gt; から GitHub へチケットの移行を進めています。
-既に現在のプロジェクトサイトは凍結され更新されることはありません（閲覧は可能です）今後は &lt;a href="https://github.com/thinreports/thinreports-editor/issues"&gt;Issues for Editor&lt;/a&gt;、
-&lt;a href="https://github.com/thinreports/thinreports-generator/issues"&gt;Issues for Generator&lt;/a&gt;
-それぞれで開発タスクやロードマップの管理をゆるく行います。バグ報告や機能の提案等はこちらからお願いします。&lt;/p&gt;
-
-&lt;p&gt;また、後述する Thinreports の内部仕様など、開発に関するドキュメントは
-Thinreports のルートプロジェクト &lt;a href="https://github.com/thinreports/thinreports"&gt;github.com/thinreports/thinreports&lt;/a&gt; の Wiki に集めます。&lt;/p&gt;
-
-&lt;h4&gt;内部仕様の公開&lt;/h4&gt;
-
-&lt;p&gt;内部仕様というよりも、 &lt;code&gt;.tlf&lt;/code&gt; ファイルのスキーマと言った方が良いかもしれませんが、
-現在このレイアウトファイルの仕様を公開する準備を進めています。仕様は &lt;a href="https://github.com/thinreports/thinreports"&gt;Thinreports のルートプロジェクト&lt;/a&gt;
-の Wiki にまとめる予定です。仕様を知ることで Thinreports の仕組みを理解することができ、
-コミュニティによる開発の促進や Thinreports を使った新たな OSS が生まれることを期待しています。&lt;/p&gt;
-
-&lt;h3&gt;ざっくりしたロードマップと今後&lt;/h3&gt;
-
-&lt;h4&gt;v1.0.0&lt;/h4&gt;
-
-&lt;p&gt;現在、いくつか &lt;a href="https://github.com/thinreports/thinreports-editor/issues/7"&gt;ご報告いただいたバグがあるので&lt;/a&gt; それは 0.7 系の bugfix としてリリースします。
-その後は 1.0 として次の機能を開発していきます。&lt;/p&gt;
-
-&lt;h5&gt;カスタムフォント&lt;/h5&gt;
-
-&lt;p&gt;各方面より最も多くいただいている機能です。この機能によりビルトインフォント以外のフォントを Thinreports で利用することができるようになります。
-ただ、内部ライブラリの制約により、利用できるフォントは TrueTypeFont &lt;code&gt;.ttf&lt;/code&gt; に限られる予定ですが、
-なんとか &lt;a href="http://www.google.com/get/noto/#/family/noto-sans-jpan"&gt;Noto Sans CJK&lt;/a&gt; を
-Thinreports で簡単に利用できるような仕組みも考えたいと強く思っています（ Nato Sans CJK は OpenTypeFont &lt;code&gt;.otf&lt;/code&gt; 形式）&lt;/p&gt;
-
-&lt;h5&gt;リスト機能の改善&lt;/h5&gt;
-
-&lt;p&gt;改善というよりも “再構築” といった方が良いかもしれません。
-現在のリスト機能は、そのアーキテクチャ自体に問題があります。
-そのことが、新しい機能の実装や改善をしづらいものにしたり、 Generator の使い勝手にまで影響しています。
-Generator については、Generator の API 設計にも問題がありますが。&lt;/p&gt;
-
-&lt;p&gt;具体的には、”再構築” によって以下のタスクを行います。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;アーキテクチャの改善（再設計）&lt;/li&gt;
-  &lt;li&gt;カスタムセクション機能&lt;/li&gt;
-  &lt;li&gt;セクションの背景色の設定&lt;/li&gt;
-  &lt;li&gt;ヘッダー/ページヘッダー&lt;/li&gt;
-  &lt;li&gt;異なるセクションのオブジェクト一括選択&lt;/li&gt;
-  &lt;li&gt;Generator API の設計見直し&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;(6) の Generator API については、個人的には &lt;a href="https://groups.google.com/forum/#!forum/thinreports"&gt;Discussion Group&lt;/a&gt; で
-どうあるべきかについて、ユーザの皆さんの意見を貰ったり議論できないかな、と思ってたりします（たぶんやります）&lt;/p&gt;
-
-&lt;h5&gt;Ruby 1.8.7 がサポート対象外へ&lt;/h5&gt;
-
-&lt;div class="ps"&gt;
-  &lt;span&gt;2014/08/11 追記 by &lt;a class="twitter notranslate" href="https://twitter.com/hidakatsuya"&gt;@hidakatsuya&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;現在の Generator は Ruby 1.8.7, 1.9.3, 2.0, 2.1 に対応しています。
-v1.0.0 では、内部ライブラリ prawn を最新版にアップデートするため、必然的に 1.8.7 がサポート対象から外れます。
-また、JRuby についても 1.8 モードが非サポートとなり、逆に現在サポートしていない 1.9 モードをサポートすることになります。&lt;/p&gt;
-
-&lt;h5&gt;Editor のプラットフォームに ChromeApp を採用&lt;/h5&gt;
-
-&lt;p&gt;現在の Editor は Qt の QWebkit によるシンプルなブラウザ上で JavaScript/CSS3/HTML5 による Editor アプリを動作させるという仕組みになっています。
-なので、そのブラウザを各プラットフォーム向けにビルドすることでマルチプラットフォーム対応を実現しています。&lt;/p&gt;
-
-&lt;p&gt;ただ、その “各プラットフォーム向けのビルド” が結構大変で、Editor をリリースする度に多くの時間リソースが必要な状態です。
-また、それ以外にも Qt ベースの Editor には、技術的にも構造的にもいろいろな改善点があります。&lt;/p&gt;
-
-&lt;p&gt;そこで v1.0.0 では &lt;a href="https://developer.chrome.com/apps/about_apps"&gt;ChromeApp&lt;/a&gt; ベースの Editor をリリースします。
-というのも、Editor の &lt;a href="https://github.com/thinreports/thinreports-editor"&gt;master&lt;/a&gt; では既に ChromeApp への移行を完了しています
-（ただ、現状は ChromeApp 上で動くようにしただけの状態でまだまだ開発が必要な状態です）
-これによって ChromeApp が動���するプラットフォームであればどれでも利用できるようになりますし、リソースの削減やアプリ自体がシンプルになるなど、
-さまざまな問題を解決できるのではと考えています。&lt;/p&gt;
-
-&lt;h4&gt;Thinreports Generator for PHP&lt;/h4&gt;
-
-&lt;p&gt;リリース当初から “PHP 版ないの?” という要望をいただいていることもあり、今年の秋を目処に PHP 版 Generator の開発着手を予定しています。&lt;/p&gt;
-
-&lt;p&gt;実は私自身も、元々 PHP で業務アプリを作ってたりしたので、PHP での帳票開発の苦労は多少分かっているつもりです。
-ただ、それも数年前の話ですので、その辺りの話を現在の PHP ユーザの方々から聞いてみたいと思っています。&lt;/p&gt;
-
-&lt;p&gt;そこで、今年の 10/11 に開催される &lt;a href="http://phpcon.php.gr.jp/w/2014/"&gt;PHP Conference 2014&lt;/a&gt; に参加し、PHP ユーザの方々と情報交換できればと思っています。
-また、Generator for PHP に賛同し一緒に開発してくれる PHPer を探すことも参加目的の一つです。&lt;/p&gt;
-
-&lt;h3&gt;その他の展開&lt;/h3&gt;
-
-&lt;h4&gt;レイアウトファイルの共有&lt;/h4&gt;
-
-&lt;p&gt;これは Thinreports そのものの話ではないのですが、 API 経由で Thinreports を利用できる &lt;a href="http://repoten-api.net/"&gt;REPOTEN-API&lt;/a&gt; で
-テンプレートをシェアできる機能を構築する予定があるようです。
-イメージ的には、各ユーザが公開しているテンプレートをショーケースのように閲覧できて、
-ダウンロードしたり API から使ってみることができるような感じでしょうか。&lt;/p&gt;
-
-&lt;p&gt;これについては、今後 &lt;a href="http://repoten-api.net/"&gt;REPOTEN-API&lt;/a&gt; や &lt;a href="http://repoten.tumblr.com/"&gt;公式ブログ&lt;/a&gt; 、
-&lt;a class="twitter notranslate" href="https://twitter.com/repoten_team"&gt;@repoten_team&lt;/a&gt; をチェックして下さい。&lt;/p&gt;</content>
   </entry>
 </feed>
 
