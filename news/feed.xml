@@ -2,13 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2015-02-08T02:12:00Z</updated>
+  <updated>2015-02-08T12:40:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2015-02-08:/news/2015/02/official-logo-is-now-available/</id>
+    <title type="html">The official logo data is now available</title>
+    <published>2015-02-08T12:40:00Z</published>
+    <updated>2015-02-08T12:40:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2015/02/official-logo-is-now-available/"/>
+    <content type="html">
+&lt;p&gt;公式ロゴの PNG/SVG データを公開しました。&lt;a href="/logo/"&gt;Logo ページ&lt;/a&gt; からダウンロードできます。
+また、すべてのロゴデータは &lt;a href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;
+ライセンスの下でご利用いただけます。ぜひご活用ください！&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2015-02-08:/news/2015/02/changed-the-official-name/</id>
     <title type="html">Change the official name</title>
@@ -177,34 +188,6 @@ Thinreports の設計や開発に積極的にコミュニティを巻き込ん�
 
 &lt;p&gt;以上です。&lt;br&gt;
 この私たちの取り組みについて意見やアドバイスをいただけるととてもうれしいです。もちろん、コミュニティへの参加も！&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2014-08-13:/news/2014/08/editor-0_7_7_2-released/</id>
-    <title type="html">Editor 0.7.7.2 released</title>
-    <published>2014-08-13T18:46:00Z</published>
-    <updated>2014-08-13T18:46:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2014/08/editor-0_7_7_2-released/"/>
-    <content type="html">
-&lt;p&gt;Thinreports Editor 0.7.7.2 をリリースしました。&lt;/p&gt;
-
-&lt;p&gt;Editor の 3 件のバグを修正しています。Generator のリリースはありません。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href="https://github.com/thinreports/thinreports-editor/issues/7"&gt;#7&lt;/a&gt; 用紙のサイズで &lt;code&gt;user&lt;/code&gt; を使用して作成した &lt;code&gt;.tlf&lt;/code&gt; が使用できない&lt;/li&gt;
-  &lt;li&gt;
-&lt;a href="https://github.com/thinreports/thinreports-editor/issues/8"&gt;#8&lt;/a&gt; The format of the PageNumber tool is not copied&lt;/li&gt;
-  &lt;li&gt;
-&lt;a href="https://github.com/thinreports/thinreports-editor/issues/9"&gt;#9&lt;/a&gt; When paper type is &lt;code&gt;user&lt;/code&gt;, paper orientation is not applied&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;用紙サイズが &lt;code&gt;user&lt;/code&gt; のとき PDF 生成時にエラーが発生するバグ &lt;code&gt;#7&lt;/code&gt; については、
-レイアウトファイルを 0.7.7.2 で開き、保存しなおすことで解決できます。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;関連リンク:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/CHANGELOG.md"&gt;ChangeLog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="/download/"&gt;Download&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
   </entry>
 </feed>
 
