@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>事例 › 住基データも扱う、避難行動要支援者名簿システムの帳票機能に採用 by 株式会社 浜田コンピュータシステム | Thinreports - 帳票ソリューション for Ruby and Rails</title>
+    <link rel="alternate" type="application/atom+xml" title="Atom" href="/news/feed.xml">
+    
+<meta property="og:title" content="事例 › 住基データも扱う、避難行動要支援者名簿システムの帳票機能に採用 by 株式会社 浜田コンピュータシステム | Thinreports">
+<meta property="og:type" content="article">
+<meta property="og:description" content="平成25年に内閣府より示された「避難行動要支援者の避難行動支援に関する取り組み指針」にのっとり、住基データ、障害者手帳所持者データ、要介護認定者データから避難行動要支援者名簿の作成と避難支援等関係者への事前の名簿情報の配布を行うシステム。">
+<meta property="og:url" content="http://www.thinreports.org/case/6/">
+<meta property="og:image" content="http://www.thinreports.org/assets/images/case/6/screenshot.png">
+<meta property="og:site_name" content="Thinreports - 帳票ソリューション for Ruby and Rails">
+<meta property="fb:admins" content="100001000444231">
+
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" media="all">
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.ie.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css">
+    <script src="/assets/javascript/modernizr.svg.min.js"></script>
+    <script src="/assets/javascript/jquery-2.1.1.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-53873059-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <meta name="google-translate-customization" content="13819003db865820-b31baa3f700b173c-gd88dd85e53d30c06-13">
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=224790820998167&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div class="github-fork-ribbon-wrapper left">
+  <div class="github-fork-ribbon">
+    <a href="https://github.com/thinreports">Fork me on GitHub</a>
+  </div>
+</div>
+
+    <div id="container" class="container">
+      <div id="header">
+        <h1><a href="/"><img src="/assets/logos/thinreports-logo.svg" width="524" id="logo" alt="Open Source Reporting Solution - Thinreports"></a></h1>
+<script>
+  (function() {
+    if (!Modernizr.svg) {
+      var logo = $('#logo');
+      logo.attr('src', logo.attr('src').replace('.svg', '.png'));
+    }
+  })();
+</script>
+
+      </div>
+      <div id="main" class="clearfix">
+        <div id="side">
+          <div id="translater" class="notranslate">
+            <div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'ja', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-53873059-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+          </div>
+          <div id="feature-of-thinreports">
+            <a href="/news/2014/08/future-of-thinreports/">Thinreports の今後</a>
+          </div>
+          <div id="nav" class="notranslate">
+            <ul>
+  <li><a href="/">Top</a></li>
+  <li><a href="/news/">News</a></li>
+  <li><a href="/features/">Features</a></li>
+  <li><strong><a href="/community/">Community</a></strong></li>
+  <li><a href="/download/">Download</a></li>
+  <li><a href="/documentation/ja/">Documentation</a></li>
+  <li><span class="active" title="You're here.">Case</span></li>
+  <li><a href="/logo/">Logo</a></li>
+  <li><a href="/support/">Support</a></li>
+</ul>
+
+          </div>
+          <div id="links" class="notranslate">
+            <ul>
+  <li><a class="navigate" title="Discussion group" href="https://groups.google.com/forum/#!forum/thinreports">Discussion group</a></li>
+  <li><a class="navigate" href="https://github.com/thinreports">GitHub repository</a></li>
+</ul>
+
+          </div>
+          <div id="social" class="notranslate">
+            <ul>
+  <li>
+    <a href="https://twitter.com/thinreports_org" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false" data-lang="en">@thinreports_org</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </li>
+  <li>
+    <div class="fb-like" data-href="https://www.facebook.com/Thinreports.org" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+  </li>
+</ul>
+
+          </div>
+        </div>
+        <div id="content" class="content-case-detail">
+        
+          
+
+
+
+
+<h2>Case</h2>
+
+<div class="navbar clearfix">
+  <a class="back-to-cases" href="/case/">事例一覧へ戻る</a>
+  <div class="share">
+  <a href="http://b.hatena.ne.jp/entry/http://www.thinreports.org/case/6/" class="hatena-bookmark-button" data-hatena-bookmark-layout="simple-balloon" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;"></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script><div class="fb-like" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="thinreports_org" data-lang="ja">ツイート</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+</div>
+
+
+
+<div class="case-title clearfix">
+  <h2>住基データも扱う、避難行動要支援者名簿システムの帳票機能に採用</h2>
+  <a target="_blank" href="http://h-com.co.jp"><img src="/assets/images/case/6/logo.png" alt="株式会社 浜田コンピュータシステム"></a>
+</div>
+
+<div class="section about-system clearfix">
+  <h3><span>Q. システムについて教えて下さい</span></h3>
+  <div class="box system-info">
+    <dl>
+<dt>エンドユーザ</dt>
+      <dd>官公庁</dd>
+      <dt>システム</dt>
+      <dd>避難行動要支援者名簿システム</dd>
+      <dt>開発会社</dt>
+      <dd>
+        株式会社 浜田コンピュータシステム<br><a target="_blank" href="http://h-com.co.jp">http://h-com.co.jp</a>
+      </dd>
+      <dt>実行環境</dt>
+      <dd>
+        <ul>
+<li>Windows Server 2008 Standard 32bit</li>
+          <li>Ruby 2.1.4</li>
+          <li>Ruby on Rails 4.1.7</li>
+          <li>Thinreports 0.7.7</li>
+        </ul>
+</dd>
+    </dl>
+</div>
+  <p>
+    平成25年に内閣府より示された「避難行動要支援者の避難行動支援に関する取り組み指針」にのっとり、住基データ、障害者手帳所持者データ、要介護認定者データから避難行動要支援者名簿の作成と避難支援等関係者への事前の名簿情報の配布を行うシステム。
+  </p>
+  <p>
+    <img src="/assets/images/case/6/screenshot.png" alt="スクリーンショット"></p>
+</div>
+
+<div class="section how-to-use">
+  <h3><span>Q. どのように活用されていますか？</span></h3>
+  <p>
+    各種帳票 PDF の出力として。
+  </p>
+  <div class="box clearfix">
+    <dl>
+<dt>帳票 (PDF) の種類</dt>
+      <dd>
+        <p>全 6 種類</p>
+      </dd>
+    </dl>
+<dl>
+<dt>平均出力ページ数</dt>
+      <dd>
+        <p>10 ページ以上</p>
+      </dd>
+    </dl>
+</div>
+</div>
+
+<div class="section">
+  <h3><span>Q. 採用した理由を教えてください</span></h3>
+  <p>
+    PDF形式の各種帳票を出力するため。
+  </p>
+</div>
+
+<div class="section">
+  <h3><span>Q. 採用による効果やメリットを教えてください</span></h3>
+  <p>
+    Ruby開発未経験者が多く、顧客ニーズに対応できていなかった中、
+    今回の経験で提案範囲の広がりと顧客ニーズの変化に柔軟に対応していくための布石とすることができた。
+  </p>
+</div>
+
+<div class="section">
+  <h3><span>Q. イマイチなところやご要望があれば教えてください</span></h3>
+  <p>
+    任意のフォントが利用できるようにしてほしい。
+  </p>
+</div>
+
+<div class="section">
+  <h3><span>Q. Thinreports Project に今後期待することをどうぞ</span></h3>
+  <p>
+    上記要望の対応やFAQの充実と更なる便利な機能が実装されることを期待します。
+  </p>
+</div>
+
+<div class="section message">
+  <h3>ありがとうございました。最後に一言お願いします。</h3>
+  <p>
+    初めてのThinreportsを利用した開発経験で得たノウハウは大きく、
+    今後のWeb開発の帳票ツールとして大いに活用していければと考えております。
+  </p>
+</div>
+
+<div class="section caution">
+  <p>本事例に記載の内容は 2015 年 02 月に取材したものであり、現在と異なる可能性があります。</p>
+</div>
+        
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="notranslate">
+      <div class="container clearfix">
+  <div class="links">
+    <ul>
+  <li><a href="/">Top</a></li>
+  <li><a href="/news/">News</a></li>
+  <li><a href="/features/">Features</a></li>
+  <li><strong><a href="/community/">Community</a></strong></li>
+  <li><a href="/download/">Download</a></li>
+  <li><a href="/documentation/ja/">Documentation</a></li>
+  <li><span class="active" title="You're here.">Case</span></li>
+  <li><a href="/logo/">Logo</a></li>
+  <li><a href="/support/">Support</a></li>
+</ul>
+
+  </div>
+  <div class="bottom">
+    <address>&copy; 2010-2014 Matsukei Corp</address>. 
+    This site is generated by <a title="nanoc" href="http://nanoc.stoneship.org/">nanoc</a>, and update history and source code is <a href="https://github.com/thinreports/thinreports.github.io">here</a>.
+  </div>
+</div>
+    </div>
+    <div id="info-bar">
+  <a title="2015.02.08 The official logo data is now available" href="/news/2015/02/official-logo-is-now-available/">NEWS <span>2015.02.08</span> The official logo data is now available</a>
+</div>
+
+
+  </body>
+</html>
