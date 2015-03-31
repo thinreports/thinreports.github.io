@@ -2,13 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2015-02-08T12:40:00Z</updated>
+  <updated>2015-03-31T09:43:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2015-03-31:/news/2015/03/posted-the-case6/</id>
+    <title type="html">事例#6「住基データも扱う、避難行動要支援者名簿システムの帳票機能に採用」を掲載</title>
+    <published>2015-03-31T09:43:00Z</published>
+    <updated>2015-03-31T09:43:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2015/03/posted-the-case6/"/>
+    <content type="html">
+&lt;p&gt;&lt;a href="http://h-com.co.jp"&gt;株式会社浜田コンピュータシステム&lt;/a&gt;（島根県、日本）での利用事例
+&lt;a href="/case/6/"&gt;Case#6 住基データも扱う、避難行動要支援者名簿システムの帳票機能に採用&lt;/a&gt; を掲載しました。&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2015-02-08:/news/2015/02/official-logo-is-now-available/</id>
     <title type="html">The official logo data is now available</title>
@@ -127,67 +137,6 @@ Thinreports へのコントリビュートをお待ちしています。&lt;/p&g
 &lt;p&gt;また、現在事例投稿用のフォームを準備中です。
 これによって、より簡単に事例を投稿することができるようになると思います。
 Thinreports を使ったことがある方は、ぜひ事例をお寄せください。&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2015-01-09:/news/2015/01/future-of-thinreports-community/</id>
-    <title type="html">Thinreports コミュニティの今後</title>
-    <published>2015-01-09T10:00:00Z</published>
-    <updated>2015-01-09T10:00:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2015/01/future-of-thinreports-community/"/>
-    <content type="html">
-&lt;p&gt;現在私たちは Thinreports の開発に参加しやすい環境を作ることに取り組んでいます。
-若干昨年の &lt;a href="/news/2014/08/future-of-thinreports/"&gt;このエントリー&lt;/a&gt; と重複する内容もありますが、
-私たちが目指している開発コミュニティとその取り組みについて簡単にお話します。&lt;/p&gt;
-
-&lt;h3&gt;何をしようとしているのか&lt;/h3&gt;
-
-&lt;p&gt;一言で言うと完全なオープン化です。&lt;/p&gt;
-
-&lt;p&gt;具体的には、Thinreports の内部仕様を含め Thinreports の開発に必要な情報や手順をすべて公開したり、
-公式サイトやドキュメントなど一部のメンバーしか管理することができなかったコンテンツを
-誰もが（間接的であれ）管理することができるようにオープンな仕組みへ移行するといったことをしています。&lt;/p&gt;
-
-&lt;p&gt;また、情報や環境だけでなく、活動そのものもオープン化して
-Thinreports の設計や開発に積極的にコミュニティを巻き込んでいきたいと思っています。
-例えば、新機能のコンセプトラフを Wiki にまとめて、コミュニティにレビューをお願いしたり、
-足りないドキュメントが無いか相談したり、新しいドキュメントのレビューをお願いするなどです。&lt;/p&gt;
-
-&lt;h3&gt;なぜか&lt;/h3&gt;
-
-&lt;p&gt;もっとたくさんの人と一緒に Thinreports を育てる活動をしたいからです。
-その中で、一緒に開発やドキュメントの整備をしてくれる人が増えれば言うことはありません。&lt;/p&gt;
-
-&lt;h3&gt;やってること、やろうとしていること&lt;/h3&gt;
-
-&lt;p&gt;すでに完了した取り組みも含めて以下のような活動を行っています。&lt;/p&gt;
-
-&lt;h4&gt;内部仕様の公開&lt;/h4&gt;
-
-&lt;p&gt;レイアウトファイル &lt;code&gt;.tlf&lt;/code&gt; 内の Schema を公開します。
-実はすでに &lt;a href="https://github.com/thinreports/thinreports"&gt;https://github.com/thinreports/thinreports&lt;/a&gt; で一部公開済みです。&lt;/p&gt;
-
-&lt;h4&gt;開発者向けドキュメントの整備&lt;/h4&gt;
-
-&lt;p&gt;Thinreports の開発を行うための環境を整える手順を作成して公開します。
-特に Editor の開発にはいろいろなツールやいろいろな手順が必要なので、まずは Editor を中心にまとめるつもりです。
-ドキュメントは &lt;a href="https://github.com/thinreports/thinreports"&gt;https://github.com/thinreports/thinreports&lt;/a&gt; で公開します。&lt;/p&gt;
-
-&lt;h4&gt;ユーザドキュメントの充実とオープン化&lt;/h4&gt;
-
-&lt;p&gt;これについては、昨年の &lt;a href="/news/2014/08/future-of-thinreports/"&gt;このエントリー&lt;/a&gt; でも触れていますが、
-ドキュメントページを GitHub Pages + Jekyll へ移行したり、Generator の API ドキュメントを整備したりします。&lt;/p&gt;
-
-&lt;h4&gt;メーリングリストへの移行&lt;/h4&gt;
-
-&lt;p&gt;これも &lt;a href="/news/2014/08/future-of-thinreports/"&gt;このエントリー&lt;/a&gt; で説明している通りですでに完了しています。
-メーリングリストは &lt;a href="https://groups.google.com/forum/#!forum/thinreports"&gt;こちら&lt;/a&gt; です。ぜひ登録を！&lt;/p&gt;
-
-&lt;h4&gt;ロゴデータの公開&lt;/h4&gt;
-
-&lt;p&gt;イベントや資料などで気軽に使えるように、公式ロゴの画像データを公開します。&lt;/p&gt;
-
-&lt;p&gt;以上です。&lt;br&gt;
-この私たちの取り組みについて意見やアドバイスをいただけるととてもうれしいです。もちろん、コミュニティへの参加も！&lt;/p&gt;</content>
   </entry>
 </feed>
 
