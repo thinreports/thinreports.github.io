@@ -2,13 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2015-04-30T20:58:00Z</updated>
+  <updated>2015-05-19T21:28:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2015-05-19:/news/2015/05/thinreports-editor-0_8_1-released/</id>
+    <title type="html">Thinreports Editor 0.8.1 Released</title>
+    <published>2015-05-19T21:28:00Z</published>
+    <updated>2015-05-19T21:28:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2015/05/thinreports-editor-0_8_1-released/"/>
+    <content type="html">
+&lt;p&gt;Thinreports Editor 0.8.1 をリリースしました。これは Editor 0.8 系の TEENY リリースです。&lt;/p&gt;
+
+&lt;p&gt;このリリースには、サポートしていないシステム言語環境で Editor が起動しない問題への修正が含まれています。
+この問題についての詳細は以下の Issue を参照してください。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-editor/issues/45"&gt;#45 Does not work in unsupported system languages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;アプリは自動的に更新されるため、 0.8.0 をすでにインストールしている場合は別途インストールする必要はありません。
+また、 Generator のリリースはありません。&lt;/p&gt;
+
+&lt;h3&gt;関連リンク&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/download/"&gt;Download&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/doc/CHANGELOG.md"&gt;Changelog for Editor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2015-04-30:/news/2015/04/thinreports-0_8_0-released/</id>
     <title type="html">Thinreports 0.8.0 Released</title>
@@ -96,74 +120,6 @@ Ruby 1.8.7 がサポート対象外となりました。さらに、バージョ
 既存のコードを変更する必要はありません。&lt;/p&gt;
 
 &lt;p&gt;しかし、その後のリリース（例えば 1.0）では &lt;code&gt;ThinReports&lt;/code&gt; は &lt;strong&gt;削除される予定です。&lt;/strong&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2015-01-28:/news/2015/01/documentation-page-was-renewed/</id>
-    <title type="html">ドキュメントページのリニューアルとコントリビュートガイドの公開</title>
-    <published>2015-01-28T15:50:00Z</published>
-    <updated>2015-01-28T15:50:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2015/01/documentation-page-was-renewed/"/>
-    <content type="html">
-&lt;p&gt;2つお知らせがあります。&lt;/p&gt;
-
-&lt;h3&gt;ドキュメントページのリニューアルと引越し&lt;/h3&gt;
-
-&lt;p&gt;これまで Thinreports のドキュメントは &lt;a href="http://osc.matsukei.net/projects/thinreports/wiki"&gt;osc.matsukei.net&lt;/a&gt; で
-公開していましたが、リニューアルととも &lt;a href="http://www.thinreports.org/documentation/"&gt;thinreports.org/documentation&lt;/a&gt; へ引越ししました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="images/new-document-site.png" alt="New Documentation Site"&gt;&lt;/p&gt;
-
-&lt;p&gt;新ドキュメントページの特徴は下記の通りです:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;GitHub Pages + Jekyll で作成&lt;/li&gt;
-  &lt;li&gt;GitHub リポジトリは &lt;a href="https://github.com/thinreports/documentation"&gt;github.com/thinreports/documentation&lt;/a&gt; です&lt;/li&gt;
-  &lt;li&gt;他言語対応は Google Translate を使っています。&lt;strong&gt;翻訳結果の改善にご協力ください&lt;/strong&gt;（詳細は &lt;a href="https://github.com/thinreports/documentation#contributing-to-thinreports-documentation"&gt;こちら&lt;/a&gt;）&lt;/li&gt;
-  &lt;li&gt;間違いの報告や提案、Pull Request も上記 GitHub よりお願いします&lt;/li&gt;
-  &lt;li&gt;貢献方法の詳細は &lt;a href="https://github.com/thinreports/documentation#contributing-to-thinreports-documentation"&gt;README&lt;/a&gt; をご覧ください&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;なお、これによって、旧プロジェクト &lt;a href="http://osc.matsukei.net/projects/thinreports"&gt;osc.matsukei.net&lt;/a&gt;
-のほぼすべての情報の移行が完了したことになるため、近い将来 &lt;a href="http://osc.matsukei.net/projects/thinreports"&gt;osc.matsukei.net&lt;/a&gt; は閉鎖されます。下記に対応表を掲載しておきます。&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;&lt;tr&gt;
-&lt;th&gt; &lt;/th&gt;
-      &lt;th style="text-align: left"&gt;今&lt;/th&gt;
-      &lt;th style="text-align: left"&gt;昔&lt;/th&gt;
-    &lt;/tr&gt;&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Issues&lt;/td&gt;
-      &lt;td style="text-align: left"&gt;
-&lt;a href="https://github.com/thinreports/thinreports-editor/issues"&gt;Editor(GitHub)&lt;/a&gt; / &lt;a href="https://github.com/thinreports/thinreports-generator/issues"&gt;Generator(GitHub)&lt;/a&gt;
-&lt;/td&gt;
-      &lt;td style="text-align: left"&gt;&lt;a href="http://osc.matsukei.net/projects/thinreports/issues"&gt;osc.matsukei.net&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Discussion Group&lt;/td&gt;
-      &lt;td style="text-align: left"&gt;&lt;a href="https://groups.google.com/forum/#!forum/thinreports"&gt;Google Groups&lt;/a&gt;&lt;/td&gt;
-      &lt;td style="text-align: left"&gt;&lt;a href="http://osc.matsukei.net/projects/thinreports/boards"&gt;osc.matsukei.net&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Documentation&lt;/td&gt;
-      &lt;td style="text-align: left"&gt;&lt;a href="http://www.thinreports.org/documentation"&gt;thinreports.org/documentation&lt;/a&gt;&lt;/td&gt;
-      &lt;td style="text-align: left"&gt;&lt;a href="http://osc.matsukei.net/projects/thinreports/wiki"&gt;osc.matsukei.net&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Examples&lt;/td&gt;
-      &lt;td style="text-align: left"&gt;&lt;a href="https://github.com/thinreports/thinreports-examples"&gt;GitHub&lt;/a&gt;&lt;/td&gt;
-      &lt;td style="text-align: left"&gt;&lt;a href="http://osc.matsukei.net/projects/thinreports/issues"&gt;osc.matsukei.net&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;&lt;h3&gt;コントリビュートガイドの公開&lt;/h3&gt;
-
-&lt;p&gt;新ドキュメントの間違い報告や Editor と Generator の開発への貢献など、
-Thinreports へのコントリビュートガイドを
-&lt;a href="https://github.com/thinreports/thinreports"&gt;thinreports/thinreports&lt;/a&gt; の
-&lt;a href="https://github.com/thinreports/thinreports/wiki/How-to%3A-Contributing-to-Thinreports"&gt;Wiki&lt;/a&gt; にまとめました。&lt;/p&gt;
-
-&lt;p&gt;また、Editor や Generator の開発環境を構築する手順など、
-これまで不足していた開発に参加するために必要な手順や情報についても順次掲載していきますので、
-Thinreports へのコントリビュートをお待ちしています。&lt;/p&gt;</content>
   </entry>
 </feed>
 
