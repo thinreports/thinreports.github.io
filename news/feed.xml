@@ -2,13 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2015-05-19T21:28:00Z</updated>
+  <updated>2015-06-23T13:15:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2015-06-23:/news/2015/06/thinreports-editor-0_8_2-released/</id>
+    <title type="html">Thinreports Editor 0.8.2 Released</title>
+    <published>2015-06-23T13:15:00Z</published>
+    <updated>2015-06-23T13:15:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2015/06/thinreports-editor-0_8_2-released/"/>
+    <content type="html">
+&lt;p&gt;Thinreports Editor 0.8.2 をリリースしました。&lt;/p&gt;
+
+&lt;p&gt;このリリースには以下の変更が含まれています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://github.com/thinreports/thinreports-editor/issues/48"&gt;#48&lt;/a&gt; Support Brazillian Portuguese locale&lt;/li&gt;
+  &lt;li&gt;
+&lt;a href="https://github.com/thinreports/thinreports-editor/issues/52"&gt;#52&lt;/a&gt; Show description of Base Format in Tooltip&lt;/li&gt;
+  &lt;li&gt;
+&lt;a href="https://github.com/thinreports/thinreports-editor/issues/35"&gt;#35&lt;/a&gt; Fixed: Invalid style is applied to ID text&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;アプリは自動的に更新されるため、Chromeアプリ版をインストールしている場合は別途インストールする必要はありません。また、Generator のリリースはありません。&lt;/p&gt;
+
+&lt;h3&gt;関連リンク&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/download/"&gt;Download&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/doc/CHANGELOG.md"&gt;Changelog for Editor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2015-05-19:/news/2015/05/thinreports-editor-0_8_1-released/</id>
     <title type="html">Thinreports Editor 0.8.1 Released</title>
@@ -94,32 +121,6 @@ Ruby 1.8.7 がサポート対象外となりました。さらに、バージョ
 &lt;p&gt;公式ロゴの PNG/SVG データを公開しました。&lt;a href="/logo/"&gt;Logo ページ&lt;/a&gt; からダウンロードできます。
 また、すべてのロゴデータは &lt;a href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;
 ライセンスの下でご利用いただけます。ぜひご活用ください！&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2015-02-08:/news/2015/02/changed-the-official-name/</id>
-    <title type="html">Change the official name</title>
-    <published>2015-02-08T02:12:00Z</published>
-    <updated>2015-02-08T02:12:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2015/02/changed-the-official-name/"/>
-    <content type="html">
-&lt;p&gt;正式名称を ThinReports から &lt;strong&gt;Thinreports&lt;/strong&gt; に変更しましたのでお知らせします。
-&lt;code&gt;Reports&lt;/code&gt; の &lt;code&gt;R&lt;/code&gt; を大文字から小文字に変更しています。
-すでに公式サイトや GitHub、ソーシャルアカウントなどへの対応が完了しています。
-ロゴの変更はありません。&lt;/p&gt;
-
-&lt;h3&gt;Generator のモジュール名変更とその影響&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://rubygems.org/gems/thinreports"&gt;Generator&lt;/a&gt; は、
-一般的に以下のように &lt;code&gt;ThinReports::&lt;/code&gt; 名前空間（モジュール）を付けて利用されます。&lt;/p&gt;
-
-&lt;div class="CodeRay"&gt;&lt;div class="code"&gt;&lt;pre&gt;&lt;code class="language-ruby"&gt;report = &lt;span class="constant"&gt;ThinReports&lt;/span&gt;::&lt;span class="constant"&gt;Report&lt;/span&gt;.new &lt;span class="key"&gt;layout&lt;/span&gt;: &lt;span class="string"&gt;&lt;span class="delimiter"&gt;'&lt;/span&gt;&lt;span class="content"&gt;foo.tlf&lt;/span&gt;&lt;span class="delimiter"&gt;'&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;次回リリース（0.8 を予定）にて、この名前空間である &lt;code&gt;ThinReports&lt;/code&gt; についても &lt;code&gt;Thinreports&lt;/code&gt; へ変更されますが、
-次回リリースの段階では &lt;code&gt;ThinReports&lt;/code&gt; を &lt;code&gt;Thinreports&lt;/code&gt; のエイリアスとするため
-引き続き &lt;code&gt;ThinReports::&lt;/code&gt; を利用することができます。そのため、次回リリースへのアップグレードによって
-既存のコードを変更する必要はありません。&lt;/p&gt;
-
-&lt;p&gt;しかし、その後のリリース（例えば 1.0）では &lt;code&gt;ThinReports&lt;/code&gt; は &lt;strong&gt;削除される予定です。&lt;/strong&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
 
