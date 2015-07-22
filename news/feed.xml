@@ -2,13 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2015-06-30T13:01:00Z</updated>
+  <updated>2015-07-23T02:04:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2015-07-23:/news/2015/07/thinreports-generator-0_8_1-released/</id>
+    <title type="html">Thinreports Generator 0.8.1 Released</title>
+    <published>2015-07-23T02:04:00Z</published>
+    <updated>2015-07-23T02:04:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2015/07/thinreports-generator-0_8_1-released/"/>
+    <content type="html">
+&lt;p&gt;Thinreports Generator 0.8.1 をリリースしました。&lt;/p&gt;
+
+&lt;p&gt;このリリースには以下の新機能が含まれています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://github.com/thinreports/thinreports-generator/pull/32"&gt;#32&lt;/a&gt; Add OPTIONAL feature for converting a pallete-based PNG w. transparency&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;Add OPTIONAL feature for converting a pallete-based PNG w. transparency&lt;/h3&gt;
+
+&lt;p&gt;この機能は、一部の透過 PNG の透明部分が正しく描画されない問題を解決するための機能です。
+具体的には、 &lt;a href="https://github.com/thinreports/thinreports-generator/pull/32"&gt;#32&lt;/a&gt; にあるような PNG8 形式の PNG が該当します。&lt;/p&gt;
+
+&lt;p&gt;なお、この機能を &lt;strong&gt;デフォルトでは無効&lt;/strong&gt; になっているため、使いたい場合は下記の設定によって有効化する必要があります。&lt;/p&gt;
+
+&lt;div class="CodeRay"&gt;&lt;div class="code"&gt;&lt;pre&gt;&lt;code class="language-ruby"&gt;&lt;span class="constant"&gt;Thinreports&lt;/span&gt;.config.convert_palleted_transparency_png = &lt;span class="predefined-constant"&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;また &lt;a href="https://github.com/thinreports/thinreports-generator/pull/32"&gt;#32&lt;/a&gt; で説明している通り、
+この機能を有効にすると、PDF 生成で使用するすべての PNG 画像に対して、チェックと（該当するなら）変換処理が行われるため、
+機能が無効な状態に比べてパフォーマンスが低下する場合があります。特に、PNG 画像を多く使っている場合は注意が必要です。&lt;/p&gt;
+
+&lt;h3&gt;関連リンク&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-generator/pull/32"&gt;Pull Request #32&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md"&gt;CHANGELOG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2015-06-30:/news/2015/06/hello-thinreports-for-php/</id>
     <title type="html">Hello Thinreports for PHP</title>
@@ -125,16 +159,6 @@ Ruby 1.8.7 がサポート対象外となりました。さらに、バージョ
 &lt;li&gt;&lt;a href="/download/"&gt;Download&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="/documentation/ja/getting-started/installation.html"&gt;Installation Guide&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2015-03-31:/news/2015/03/posted-the-case6/</id>
-    <title type="html">事例#6「住基データも扱う、避難行動要支援者名簿システムの帳票機能に採用」を掲載</title>
-    <published>2015-03-31T09:43:00Z</published>
-    <updated>2015-03-31T09:43:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2015/03/posted-the-case6/"/>
-    <content type="html">
-&lt;p&gt;&lt;a href="http://h-com.co.jp"&gt;株式会社浜田コンピュータシステム&lt;/a&gt;（島根県、日本）での利用事例
-&lt;a href="/case/6/"&gt;Case#6 住基データも扱う、避難行動要支援者名簿システムの帳票機能に採用&lt;/a&gt; を掲載しました。&lt;/p&gt;</content>
   </entry>
 </feed>
 

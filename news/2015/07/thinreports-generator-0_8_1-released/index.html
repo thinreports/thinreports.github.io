@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Editor 0.7.7.2 released | Thinreports - オープンソース PDF 帳票ツール for Ruby, Rails</title>
+    <title>Thinreports Generator 0.8.1 Released | Thinreports - オープンソース PDF 帳票ツール for Ruby, Rails</title>
     <link rel="alternate" type="application/atom+xml" title="Atom" href="/news/feed.xml">
-    <meta property="og:title" content="Editor 0.7.7.2 released | Thinreports">
+    <meta property="og:title" content="Thinreports Generator 0.8.1 Released | Thinreports">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://www.thinreports.org/news/2014/08/editor-0_7_7_2-released/">
+<meta property="og:url" content="http://www.thinreports.org/news/2015/07/thinreports-generator-0_8_1-released/">
 <meta property="og:site_name" content="Thinreports - オープンソース PDF 帳票ツール for Ruby, Rails">
 <meta property="og:image" content="http://www.thinreports.org/assets/logos/thinreports-logo-v.png">
 
@@ -75,10 +75,10 @@
   <a href="/news/">News</a>
 </div>
 
-<h2>Editor 0.7.7.2 released</h2>
+<h2>Thinreports Generator 0.8.1 Released</h2>
 
 <div class="meta">
-  2014.08.13
+  2015.07.23
   
     / written by <a class="twitter notranslate" href="https://twitter.com/hidakatsuya">@hidakatsuya</a>
   
@@ -86,30 +86,36 @@
 
 
             
-<p>Thinreports Editor 0.7.7.2 をリリースしました。</p>
+<p>Thinreports Generator 0.8.1 をリリースしました。</p>
 
-<p>Editor の 3 件のバグを修正しています。Generator のリリースはありません。</p>
+<p>このリリースには以下の新機能が含まれています。</p>
 
 <ul>
 <li>
-<a href="https://github.com/thinreports/thinreports-editor/issues/7">#7</a> 用紙のサイズで <code>user</code> を使用して作成した <code>.tlf</code> が使用できない</li>
-  <li>
-<a href="https://github.com/thinreports/thinreports-editor/issues/8">#8</a> The format of the PageNumber tool is not copied</li>
-  <li>
-<a href="https://github.com/thinreports/thinreports-editor/issues/9">#9</a> When paper type is <code>user</code>, paper orientation is not applied</li>
-</ul><p>用紙サイズが <code>user</code> のとき PDF 生成時にエラーが発生するバグ <code>#7</code> については、
-レイアウトファイルを 0.7.7.2 で開き、保存しなおすことで解決できます。</p>
+<a href="https://github.com/thinreports/thinreports-generator/pull/32">#32</a> Add OPTIONAL feature for converting a pallete-based PNG w. transparency</li>
+</ul><h3>Add OPTIONAL feature for converting a pallete-based PNG w. transparency</h3>
 
-<p><strong>関連リンク:</strong></p>
+<p>この機能は、一部の透過 PNG の透明部分が正しく描画されない問題を解決するための機能です。
+具体的には、 <a href="https://github.com/thinreports/thinreports-generator/pull/32">#32</a> にあるような PNG8 形式の PNG が該当します。</p>
+
+<p>なお、この機能を <strong>デフォルトでは無効</strong> になっているため、使いたい場合は下記の設定によって有効化する必要があります。</p>
+
+<div class="CodeRay"><div class="code"><pre><code class="language-ruby"><span class="constant">Thinreports</span>.config.convert_palleted_transparency_png = <span class="predefined-constant">true</span></code></pre></div></div>
+
+<p>また <a href="https://github.com/thinreports/thinreports-generator/pull/32">#32</a> で説明している通り、
+この機能を有効にすると、PDF 生成で使用するすべての PNG 画像に対して、チェックと（該当するなら）変換処理が行われるため、
+機能が無効な状態に比べてパフォーマンスが低下する場合があります。特に、PNG 画像を多く使っている場合は注意が必要です。</p>
+
+<h3>関連リンク</h3>
 
 <ul>
-<li><a href="https://github.com/thinreports/thinreports-editor/blob/master/CHANGELOG.md">ChangeLog</a></li>
-  <li><a href="/download/">Download</a></li>
+<li><a href="https://github.com/thinreports/thinreports-generator/pull/32">Pull Request #32</a></li>
+  <li><a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md">CHANGELOG</a></li>
 </ul>
           
 
 <div class="share">
-  <a href="https://twitter.com/share" class="twitter-share-button" data-text="News - Editor 0.7.7.2 released | Thinreports" data-via="thinreports_org" data-hashtags="Thinreports">Tweet</a>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="News - Thinreports Generator 0.8.1 Released | Thinreports" data-via="thinreports_org" data-hashtags="Thinreports">Tweet</a>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
 
