@@ -28,7 +28,7 @@
 &lt;p&gt;この機能は、一部の透過 PNG の透明部分が正しく描画されない問題を解決するための機能です。
 具体的には、 &lt;a href="https://github.com/thinreports/thinreports-generator/pull/32"&gt;#32&lt;/a&gt; にあるような PNG8 形式の PNG が該当します。&lt;/p&gt;
 
-&lt;p&gt;なお、この機能を &lt;strong&gt;デフォルトでは無効&lt;/strong&gt; になっているため、使いたい場合は下記の設定によって有効化する必要があります。&lt;/p&gt;
+&lt;p&gt;なお、この機能は &lt;strong&gt;デフォルトでは無効&lt;/strong&gt; になっているため、有効にする場合は下記のように設定が必要です。&lt;/p&gt;
 
 &lt;div class="CodeRay"&gt;&lt;div class="code"&gt;&lt;pre&gt;&lt;code class="language-ruby"&gt;&lt;span class="constant"&gt;Thinreports&lt;/span&gt;.config.convert_palleted_transparency_png = &lt;span class="predefined-constant"&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
