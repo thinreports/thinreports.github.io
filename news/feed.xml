@@ -2,13 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2015-07-23T02:04:00Z</updated>
+  <updated>2015-11-24T16:17:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2015-11-24:/news/2015/11/thinreports-php-0_8_0-released/</id>
+    <title type="html">Thinreports for PHP v0.8.0 released</title>
+    <published>2015-11-24T16:17:00Z</published>
+    <updated>2015-11-24T16:17:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2015/11/thinreports-php-0_8_0-released/"/>
+    <content type="html">
+&lt;p&gt;Thinreports Generator の PHP 実装である &lt;a href="https://github.com/thinreports-php/thinreports-php"&gt;Thinreports for PHP&lt;/a&gt; の最初の安定版 v0.8.0 がリリースされました。alpha1, alpha2 を経てのリリースとなります。&lt;/p&gt;
+
+&lt;p&gt;alpha2 に対して1つのバグ修正と2つの新機能が追加されています。詳細は &lt;a href="https://github.com/thinreports-php/thinreports-php/releases/tag/0.8.0"&gt;リリースアナウンス&lt;/a&gt; をご覧ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://packagist.org/packages/thinreports-php/thinreports-php#0.8.0"&gt;&lt;img src="images/thinreports-php-packagist.png" alt=""&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;関連リンク&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/thinreports-php/thinreports-php/releases/tag/0.8.0"&gt;0.8.0 リリースアナウンス&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/thinreports-php/thinreports-php#getting-started"&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/thinreports-php/thinreports-php/wiki/Quick-Reference"&gt;Quick Reference (WIP)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2015-07-23:/news/2015/07/thinreports-generator-0_8_1-released/</id>
     <title type="html">Thinreports Generator 0.8.1 Released</title>
@@ -117,47 +138,6 @@ MIT License の下 PHP5.6 以降で利用可能とのことです。
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="/download/"&gt;Download&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/doc/CHANGELOG.md"&gt;Changelog for Editor&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2015-04-30:/news/2015/04/thinreports-0_8_0-released/</id>
-    <title type="html">Thinreports 0.8.0 Released</title>
-    <published>2015-04-30T20:58:00Z</published>
-    <updated>2015-04-30T20:58:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2015/04/thinreports-0_8_0-released/"/>
-    <content type="html">
-&lt;p&gt;Thinreports 0.8.0 をリリースしました。&lt;/p&gt;
-
-&lt;p&gt;このリリースには主に以下の変更が含まれています。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Editor が Chrome アプリへ&lt;/li&gt;
-  &lt;li&gt;Generator の非推奨 API が削除され、多くの API が非推奨へ&lt;/li&gt;
-  &lt;li&gt;Generator にいくつかの新しい API が追加&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;いずれにも、大きな新機能はありませんが、次期メジャーバージョン 1.0.0 へ向けた大きな変更が含まれています。
-詳細は &lt;strong&gt;Changelog: &lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/doc/CHANGELOG.md"&gt;Editor&lt;/a&gt;
-/ &lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md"&gt;Generator&lt;/a&gt;&lt;/strong&gt; を参照してください。&lt;/p&gt;
-
-&lt;p&gt;いくつかの変更について簡単に説明しておきます。&lt;/p&gt;
-
-&lt;h3&gt;Editor - Chrome アプリ版をリリース&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://chrome.google.com/webstore/detail/thinreports-editor/cdlcnnandndjkbbdcbpnjoimphmifkfn"&gt;&lt;img src="images/thinreports-editor.png" alt=""&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;バージョン 0.8 より、Editor は Chrome アプリとしてリリースされます。
-従来のインストーラ版も Windows のみリリースしていますが、次期メジャーリリースでは一切リリースされません。
-特に理由がなければ Chrome アプリ版を使うことを強くお勧めします。Chrome アプリ版は &lt;a href="https://chrome.google.com/webstore/detail/thinreports-editor/cdlcnnandndjkbbdcbpnjoimphmifkfn"&gt;Chrome Web Store&lt;/a&gt; よりインストールできます。&lt;/p&gt;
-
-&lt;h3&gt;Generator - Ruby 1.8.7 のサポートを終了&lt;/h3&gt;
-
-&lt;p&gt;PDF ライブラリ &lt;a href="https://github.com/prawnpdf/prawn"&gt;Prawn&lt;/a&gt; を 1.3 へアップグレードしたことにより、
-Ruby 1.8.7 がサポート対象外となりました。さらに、バージョン 1.0.0 より Ruby 1.9.3 をサポートしない予定です。&lt;/p&gt;
-
-&lt;h3&gt;関連リンク&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="/download/"&gt;Download&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="/documentation/ja/getting-started/installation.html"&gt;Installation Guide&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
 </feed>
