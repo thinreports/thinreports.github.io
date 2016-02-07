@@ -2,26 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2016-02-07T16:50:00Z</updated>
+  <updated>2015-11-24T16:17:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
-  <entry>
-    <id>tag:www.thinreports.org,2016-02-07:/news/2016/02/thinreports-generator-0_8_2-released/</id>
-    <title type="html">Thinreports Generator 0.8.2 released</title>
-    <published>2016-02-07T16:50:00Z</published>
-    <updated>2016-02-07T16:50:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2016/02/thinreports-generator-0_8_2-released/"/>
-    <content type="html">
-&lt;p&gt;Thinreports Generator 0.8.2 をリリースしました。&lt;/p&gt;
-
-&lt;p&gt;このリリースでは、Ruby の警告を解消するためのコードの改善を行っています。&lt;/p&gt;
-
-&lt;p&gt;詳細は &lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt; をご覧ください。&lt;/p&gt;</content>
-  </entry>
   <entry>
     <id>tag:www.thinreports.org,2015-11-24:/news/2015/11/thinreports-php-0_8_0-released/</id>
     <title type="html">Thinreports for PHP v0.8.0 released</title>
@@ -121,6 +108,30 @@ MIT License の下 PHP5.6 以降で利用可能とのことです。
   &lt;li&gt;
 &lt;a href="https://github.com/thinreports/thinreports-editor/issues/35"&gt;#35&lt;/a&gt; Fixed: Invalid style is applied to ID text&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;アプリは自動的に更新されるため、Chromeアプリ版をインストールしている場合は別途インストールする必要はありません。また、Generator のリリースはありません。&lt;/p&gt;
+
+&lt;h3&gt;関連リンク&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/download/"&gt;Download&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/doc/CHANGELOG.md"&gt;Changelog for Editor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:www.thinreports.org,2015-05-19:/news/2015/05/thinreports-editor-0_8_1-released/</id>
+    <title type="html">Thinreports Editor 0.8.1 Released</title>
+    <published>2015-05-19T21:28:00Z</published>
+    <updated>2015-05-19T21:28:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2015/05/thinreports-editor-0_8_1-released/"/>
+    <content type="html">
+&lt;p&gt;Thinreports Editor 0.8.1 をリリースしました。これは Editor 0.8 系の TEENY リリースです。&lt;/p&gt;
+
+&lt;p&gt;このリリースには、サポートしていないシステム言語環境で Editor が起動しない問題への修正が含まれています。
+この問題についての詳細は以下の Issue を参照してください。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-editor/issues/45"&gt;#45 Does not work in unsupported system languages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;アプリは自動的に更新されるため、 0.8.0 をすでにインストールしている場合は別途インストールする必要はありません。
+また、 Generator のリリースはありません。&lt;/p&gt;
 
 &lt;h3&gt;関連リンク&lt;/h3&gt;
 
