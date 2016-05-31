@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello Thinreports for PHP | Thinreports - オープンソース PDF 帳票ツール for Ruby, Rails</title>
+    <title>Thinreports 0.9.0 is out! | Thinreports - オープンソース PDF 帳票ツール for Ruby, Rails</title>
     <link rel="alternate" type="application/atom+xml" title="Atom" href="/news/feed.xml">
-    <meta property="og:title" content="Hello Thinreports for PHP | Thinreports">
+    <meta property="og:title" content="Thinreports 0.9.0 is out! | Thinreports">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://www.thinreports.org/news/2015/06/hello-thinreports-for-php/">
+<meta property="og:url" content="http://www.thinreports.org/news/2016/06/thinreports-0_9_0-is-out/">
 <meta property="og:site_name" content="Thinreports - オープンソース PDF 帳票ツール for Ruby, Rails">
 <meta property="og:image" content="http://www.thinreports.org/assets/logos/thinreports-logo-v.png">
 
@@ -75,10 +75,10 @@
   <a href="/news/">News</a>
 </div>
 
-<h2>Hello Thinreports for PHP</h2>
+<h2>Thinreports 0.9.0 is out!</h2>
 
 <div class="meta">
-  2015.06.30
+  2016.06.01
   
     / written by <a class="twitter notranslate" href="https://twitter.com/hidakatsuya">@hidakatsuya</a>
   
@@ -86,27 +86,81 @@
 
 
             
-<p>2015年6月27日(土) に福岡で開催された <a href="http://phpcon.fukuoka.jp">PHP Conference Fukuoka 2015</a> で、
-PHP 版 Thinreports Generator が発表されました。</p>
+<p>Thinreports 0.9.0 をリリースしました。1年ぶりのメジャーリリースです。</p>
+
+<p>機能の追加はありませんが、内部的に大きな変更と、古い <code>.tlf</code> ファイルのサポート終了など、いくつかの注意が必要な変更が含まれます。</p>
 
 <ul>
-<li><a href="https://github.com/thinreports-php/thinreports-php">GitHub Repository</a></li>
-  <li><a href="https://packagist.org/packages/thinreports-php/thinreports-php">Packagist</a></li>
-  <li><a href="https://gitter.im/thinreports-php/thinreports-php/dev">Development Community</a></li>
-</ul><p>まだ開発バージョン（2015年6月27日時点）であり、Thinreports のいくつかの機能に対応していませんが、
-MIT License の下 PHP5.6 以降で利用可能とのことです。
-ただ、<a href="https://gitter.im/thinreports-php/thinreports-php/dev">Thinreports PHP 開発コミュニティ</a> では PHP5.4 又は 5.3 への対応も検討中のようです。
-詳細は GitHub の <a href="https://github.com/thinreports-php/thinreports-php#thinreports-generator-for-php">README.md</a> をご覧ください。</p>
+<li>(Editor/Generator) New format for layout file</li>
+  <li>(Editor/Generator) Drop support for layout file created with Editor v0.7 or lower</li>
+  <li>(Editor) Release only ChromeApp ver</li>
+  <li>(Generator) Fixed a bug</li>
+  <li>(Generator) Remove some deprecated methods</li>
+</ul><p>詳しくは、それぞれの CHANGELOG <a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md">Generator</a> / <a href="https://github.com/thinreports/thinreports-editor/blob/master/doc/CHANGELOG.md">Editor</a> をご覧ください。</p>
 
-<p>発表スライドは下記 Speaker Deck で公開されています。</p>
+<h3>New format for layout file</h3>
 
-<div class="slide-container">
-  <script async="" class="speakerdeck-embed" data-id="d3a5f8039c184600bf28f8334efbbd99" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-</div>
+<p><code>.tlf</code> ファイルが新しい形式で保存されるようになります。
+新しい形式の詳細は <a href="https://github.com/thinreports/thinreports/issues/4">thinreports/thinreports#4</a> をご覧ください。</p>
+
+<h4>Support Policy</h4>
+
+<ol>
+<li>Editor v0.8 以前で保存された古い形式 (Old format)</li>
+  <li>Editor v0.9 以降で保存された新しい形式 (New format)</li>
+</ol><table>
+<thead><tr>
+<th>Thinreports</th>
+      <th style="text-align: center">1-Old format</th>
+      <th style="text-align: center">2-New format</th>
+    </tr></thead>
+<tbody>
+<tr>
+<td>&lt;= v0.8</td>
+      <td style="text-align: center">Yes</td>
+      <td style="text-align: center">No</td>
+    </tr>
+<tr>
+<td>v0.9 and v1.0</td>
+      <td style="text-align: center">Yes</td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+<tr>
+<td>&gt;= v1.1</td>
+      <td style="text-align: center">No</td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+</tbody>
+</table><h4>How to upgrade to new format</h4>
+
+<p>v0.9 or v1.0 の Editor を使って古い形式の <code>.tlf</code> ファイルを開き、
+何らかの変更（図形を動かして元の位置に戻すだけでも良い）を加えて保存することで新しい形式へ変換することができます。</p>
+
+<h4>New Format Specification</h4>
+
+<p>https://github.com/thinreports/thinreports/wiki/Spec%3A-Layout-File%3A-Format</p>
+
+<h3>Drop support for layout file created with Editor v0.7 or lower</h3>
+
+<p>Editor v0.7 以前で作成された <code>.tlf</code> ファイルは v0.9 以降で扱うことはできません。
+v0.9 以降で扱うためには、Editor v0.8 で保存し直す必要があります。</p>
+
+<h4>How to confirm version of the layout file</h4>
+
+<p><code>.tlf</code> ファイル内の <code>"version"</code> の値で確認できます。</p>
+
+<div class="CodeRay"><div class="code"><pre><code class="language-javascript">{<span class="key"><span class="delimiter">"</span><span class="content">version</span><span class="delimiter">"</span></span>:<span class="string"><span class="delimiter">"</span><span class="content">0.7.7.2</span><span class="delimiter">"</span></span>,<span class="key"><span class="delimiter">"</span><span class="content">finger-print</span><span class="delimiter">"</span></span>:-<span class="integer">1821469257</span>,<span class="key"><span class="delimiter">"</span><span class="content">config</span><span class="delimiter">"</span></span>:{<span class="key"><span class="delimiter">"</span><span class="content">title</span><span class="delimiter">"</span></span>:<span class="string"><span class="delimiter">"</span><span class="content">Example Barcode</span><span class="delimiter">"</span></span>,<span class="key"><span class="delimiter">"</span><span class="content">option</span><span class="delimiter">"</span></span>:{},<span class="string"><span class="delimiter">"</span><span class="content">page</span><span class="delimiter">"</span></span> ... }</code></pre></div></div>
+
+<h3>関連リンク</h3>
+
+<ul>
+<li><a href="/download/">Download</a></li>
+  <li><a href="/documentation/ja/getting-started/installation.html">Installation Guide</a></li>
+</ul>
           
 
 <div class="share">
-  <a href="https://twitter.com/share" class="twitter-share-button" data-text="News - Hello Thinreports for PHP | Thinreports" data-via="thinreports_org" data-hashtags="Thinreports">Tweet</a>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="News - Thinreports 0.9.0 is out! | Thinreports" data-via="thinreports_org" data-hashtags="Thinreports">Tweet</a>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
 

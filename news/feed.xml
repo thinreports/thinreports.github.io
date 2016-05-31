@@ -2,13 +2,92 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2016-02-07T16:50:00Z</updated>
+  <updated>2016-06-01T00:05:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2016-06-01:/news/2016/06/thinreports-0_9_0-is-out/</id>
+    <title type="html">Thinreports 0.9.0 is out!</title>
+    <published>2016-06-01T00:05:00Z</published>
+    <updated>2016-06-01T00:05:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2016/06/thinreports-0_9_0-is-out/"/>
+    <content type="html">
+&lt;p&gt;Thinreports 0.9.0 をリリースしました。1年ぶりのメジャーリリースです。&lt;/p&gt;
+
+&lt;p&gt;機能の追加はありませんが、内部的に大きな変更と、古い &lt;code&gt;.tlf&lt;/code&gt; ファイルのサポート終了など、いくつかの注意が必要な変更が含まれます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(Editor/Generator) New format for layout file&lt;/li&gt;
+  &lt;li&gt;(Editor/Generator) Drop support for layout file created with Editor v0.7 or lower&lt;/li&gt;
+  &lt;li&gt;(Editor) Release only ChromeApp ver&lt;/li&gt;
+  &lt;li&gt;(Generator) Fixed a bug&lt;/li&gt;
+  &lt;li&gt;(Generator) Remove some deprecated methods&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;詳しくは、それぞれの CHANGELOG &lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md"&gt;Generator&lt;/a&gt; / &lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/doc/CHANGELOG.md"&gt;Editor&lt;/a&gt; をご覧ください。&lt;/p&gt;
+
+&lt;h3&gt;New format for layout file&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;.tlf&lt;/code&gt; ファイルが新しい形式で保存されるようになります。
+新しい形式の詳細は &lt;a href="https://github.com/thinreports/thinreports/issues/4"&gt;thinreports/thinreports#4&lt;/a&gt; をご覧ください。&lt;/p&gt;
+
+&lt;h4&gt;Support Policy&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Editor v0.8 以前で保存された古い形式 (Old format)&lt;/li&gt;
+  &lt;li&gt;Editor v0.9 以降で保存された新しい形式 (New format)&lt;/li&gt;
+&lt;/ol&gt;&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th&gt;Thinreports&lt;/th&gt;
+      &lt;th style="text-align: center"&gt;1-Old format&lt;/th&gt;
+      &lt;th style="text-align: center"&gt;2-New format&lt;/th&gt;
+    &lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;lt;= v0.8&lt;/td&gt;
+      &lt;td style="text-align: center"&gt;Yes&lt;/td&gt;
+      &lt;td style="text-align: center"&gt;No&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;v0.9 and v1.0&lt;/td&gt;
+      &lt;td style="text-align: center"&gt;Yes&lt;/td&gt;
+      &lt;td style="text-align: center"&gt;Yes&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;gt;= v1.1&lt;/td&gt;
+      &lt;td style="text-align: center"&gt;No&lt;/td&gt;
+      &lt;td style="text-align: center"&gt;Yes&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;h4&gt;How to upgrade to new format&lt;/h4&gt;
+
+&lt;p&gt;v0.9 or v1.0 の Editor を使って古い形式の &lt;code&gt;.tlf&lt;/code&gt; ファイルを開き、
+何らかの変更（図形を動かして元の位置に戻すだけでも良い）を加えて保存することで新しい形式へ変換することができます。&lt;/p&gt;
+
+&lt;h4&gt;New Format Specification&lt;/h4&gt;
+
+&lt;p&gt;https://github.com/thinreports/thinreports/wiki/Spec%3A-Layout-File%3A-Format&lt;/p&gt;
+
+&lt;h3&gt;Drop support for layout file created with Editor v0.7 or lower&lt;/h3&gt;
+
+&lt;p&gt;Editor v0.7 以前で作成された &lt;code&gt;.tlf&lt;/code&gt; ファイルは v0.9 以降で扱うことはできません。
+v0.9 以降で扱うためには、Editor v0.8 で保存し直す必要があります。&lt;/p&gt;
+
+&lt;h4&gt;How to confirm version of the layout file&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;.tlf&lt;/code&gt; ファイル内の &lt;code&gt;"version"&lt;/code&gt; の値で確認できます。&lt;/p&gt;
+
+&lt;div class="CodeRay"&gt;&lt;div class="code"&gt;&lt;pre&gt;&lt;code class="language-javascript"&gt;{&lt;span class="key"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;version&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt;:&lt;span class="string"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;0.7.7.2&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt;,&lt;span class="key"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;finger-print&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt;:-&lt;span class="integer"&gt;1821469257&lt;/span&gt;,&lt;span class="key"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;config&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt;:{&lt;span class="key"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;title&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt;:&lt;span class="string"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;Example Barcode&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt;,&lt;span class="key"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;option&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt;:{},&lt;span class="string"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;page&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt; ... }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3&gt;関連リンク&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/download/"&gt;Download&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/documentation/ja/getting-started/installation.html"&gt;Installation Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2016-02-07:/news/2016/02/thinreports-generator-0_8_2-released/</id>
     <title type="html">Thinreports Generator 0.8.2 released</title>
@@ -101,33 +180,6 @@ MIT License の下 PHP5.6 以降で利用可能とのことです。
 &lt;div class="slide-container"&gt;
   &lt;script async="" class="speakerdeck-embed" data-id="d3a5f8039c184600bf28f8334efbbd99" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
 &lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2015-06-23:/news/2015/06/thinreports-editor-0_8_2-released/</id>
-    <title type="html">Thinreports Editor 0.8.2 Released</title>
-    <published>2015-06-23T13:15:00Z</published>
-    <updated>2015-06-23T13:15:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2015/06/thinreports-editor-0_8_2-released/"/>
-    <content type="html">
-&lt;p&gt;Thinreports Editor 0.8.2 をリリースしました。&lt;/p&gt;
-
-&lt;p&gt;このリリースには以下の変更が含まれています。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href="https://github.com/thinreports/thinreports-editor/issues/48"&gt;#48&lt;/a&gt; Support Brazillian Portuguese locale&lt;/li&gt;
-  &lt;li&gt;
-&lt;a href="https://github.com/thinreports/thinreports-editor/issues/52"&gt;#52&lt;/a&gt; Show description of Base Format in Tooltip&lt;/li&gt;
-  &lt;li&gt;
-&lt;a href="https://github.com/thinreports/thinreports-editor/issues/35"&gt;#35&lt;/a&gt; Fixed: Invalid style is applied to ID text&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;アプリは自動的に更新されるため、Chromeアプリ版をインストールしている場合は別途インストールする必要はありません。また、Generator のリリースはありません。&lt;/p&gt;
-
-&lt;h3&gt;関連リンク&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="/download/"&gt;Download&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/doc/CHANGELOG.md"&gt;Changelog for Editor&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
   </entry>
 </feed>
 
