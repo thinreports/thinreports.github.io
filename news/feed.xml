@@ -81,6 +81,12 @@ v0.9 以降で扱うためには、Editor v0.8 で保存し直す必要があり
 
 &lt;div class="CodeRay"&gt;&lt;div class="code"&gt;&lt;pre&gt;&lt;code class="language-javascript"&gt;{&lt;span class="key"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;version&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt;:&lt;span class="string"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;0.7.7.2&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt;,&lt;span class="key"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;finger-print&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt;:-&lt;span class="integer"&gt;1821469257&lt;/span&gt;,&lt;span class="key"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;config&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt;:{&lt;span class="key"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;title&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt;:&lt;span class="string"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;Example Barcode&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt;,&lt;span class="key"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;option&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt;:{},&lt;span class="string"&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;span class="content"&gt;page&lt;/span&gt;&lt;span class="delimiter"&gt;"&lt;/span&gt;&lt;/span&gt; ... }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;h3&gt;How to install old version of Editor&lt;/h3&gt;
+
+&lt;p&gt;Editor は自動的に v0.9.0 に更新されます。古いバージョン v0.8.2 を継続して使いたい場合は、
+&lt;a href="/documentation/ja/getting-started/installation.html"&gt;インストールガイド&lt;/a&gt; の「過去のバージョンをインストールする」にて、
+Chromeウェブストアでインストールした最新版の Editor とは別に、古いバージョンの Editor を共存させることができます。&lt;/p&gt;
+
 &lt;h3&gt;関連リンク&lt;/h3&gt;
 
 &lt;ul&gt;
