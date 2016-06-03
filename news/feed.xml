@@ -2,13 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2016-06-01T00:05:00Z</updated>
+  <updated>2016-06-03T20:23:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2016-06-03:/news/2016/06/thinreports-generator-0_9_1-released/</id>
+    <title type="html">Thinreports Generator 0.9.1 released</title>
+    <published>2016-06-03T20:23:00Z</published>
+    <updated>2016-06-03T20:23:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2016/06/thinreports-generator-0_9_1-released/"/>
+    <content type="html">
+&lt;p&gt;Thinreports Generator 0.9.1 をリリースしました。&lt;/p&gt;
+
+&lt;p&gt;このリリースで、古い形式の &lt;code&gt;.tlf&lt;/code&gt; ファイルを読み込んだ場合の問題をいくつか修正しています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed #66 an error occurred when render list &lt;a href="https://github.com/thinreports/thinreports-generator/pull/68"&gt;#68&lt;/a&gt;
+&lt;/li&gt;
+  &lt;li&gt;Fixed bug that line-height of text-block is always set to 0 &lt;a href="https://github.com/thinreports/thinreports-generator/pull/68"&gt;#68&lt;/a&gt;
+&lt;/li&gt;
+  &lt;li&gt;Fixed a referenced text-block not rendered &lt;a href="https://github.com/thinreports/thinreports-generator/pull/68"&gt;#68&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;なお、 Editor のリリースはありません。&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2016-06-01:/news/2016/06/thinreports-0_9_0-is-out/</id>
     <title type="html">Thinreports 0.9.0 is out!</title>
@@ -161,31 +181,6 @@ Chromeウェブストアでインストールした最新版の Editor とは別
 &lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-generator/pull/32"&gt;Pull Request #32&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md"&gt;CHANGELOG&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2015-06-30:/news/2015/06/hello-thinreports-for-php/</id>
-    <title type="html">Hello Thinreports for PHP</title>
-    <published>2015-06-30T13:01:00Z</published>
-    <updated>2015-06-30T13:01:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2015/06/hello-thinreports-for-php/"/>
-    <content type="html">
-&lt;p&gt;2015年6月27日(土) に福岡で開催された &lt;a href="http://phpcon.fukuoka.jp"&gt;PHP Conference Fukuoka 2015&lt;/a&gt; で、
-PHP 版 Thinreports Generator が発表されました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/thinreports-php/thinreports-php"&gt;GitHub Repository&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://packagist.org/packages/thinreports-php/thinreports-php"&gt;Packagist&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://gitter.im/thinreports-php/thinreports-php/dev"&gt;Development Community&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;まだ開発バージョン（2015年6月27日時点）であり、Thinreports のいくつかの機能に対応していませんが、
-MIT License の下 PHP5.6 以降で利用可能とのことです。
-ただ、&lt;a href="https://gitter.im/thinreports-php/thinreports-php/dev"&gt;Thinreports PHP 開発コミュニティ&lt;/a&gt; では PHP5.4 又は 5.3 への対応も検討中のようです。
-詳細は GitHub の &lt;a href="https://github.com/thinreports-php/thinreports-php#thinreports-generator-for-php"&gt;README.md&lt;/a&gt; をご覧ください。&lt;/p&gt;
-
-&lt;p&gt;発表スライドは下記 Speaker Deck で公開されています。&lt;/p&gt;
-
-&lt;div class="slide-container"&gt;
-  &lt;script async="" class="speakerdeck-embed" data-id="d3a5f8039c184600bf28f8334efbbd99" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
-&lt;/div&gt;</content>
   </entry>
 </feed>
 
