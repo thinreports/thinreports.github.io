@@ -2,13 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2016-06-03T20:23:00Z</updated>
+  <updated>2016-07-25T02:09:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2016-07-25:/news/2016/07/thinreports-editor-0_9_1-released/</id>
+    <title type="html">Thinreports Editor 0.9.1 Released</title>
+    <published>2016-07-25T02:09:00Z</published>
+    <updated>2016-07-25T02:09:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2016/07/thinreports-editor-0_9_1-released/"/>
+    <content type="html">
+&lt;p&gt;Thinreports Editor 0.9.1 をリリースしました。&lt;/p&gt;
+
+&lt;p&gt;Editor 0.9.0 でテンプレートファイルを開いた時、リスト内の罫線が正しく描画されない問題を修正しています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed: Broken line rendering in list &lt;a href="https://github.com/thinreports/thinreports-editor/issues/60"&gt;#60&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;この問題の詳細は下記をご覧ください。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://groups.google.com/forum/?hl=ja#!topic/thinreports/KMz111C-xjM"&gt;Thinreports Editor 0.9.0 で古い形式のTLFファイルを開くと、レイアウトが崩れてしまうことがある&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://groups.google.com/forum/#!msg/thinreports/BcKlJVlXtFY/ZrqymTb1BAAJ"&gt;ThinReports Editor 0.9.0 縦線の幅が勝ってに増えていく&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2016-06-03:/news/2016/06/thinreports-generator-0_9_1-released/</id>
     <title type="html">Thinreports Generator 0.9.1 released</title>
@@ -146,40 +167,6 @@ Chromeウェブストアでインストールした最新版の Editor とは別
 &lt;li&gt;&lt;a href="https://github.com/thinreports-php/thinreports-php/releases/tag/0.8.0"&gt;0.8.0 リリースアナウンス&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://github.com/thinreports-php/thinreports-php#getting-started"&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://github.com/thinreports-php/thinreports-php/wiki/Quick-Reference"&gt;Quick Reference (WIP)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2015-07-23:/news/2015/07/thinreports-generator-0_8_1-released/</id>
-    <title type="html">Thinreports Generator 0.8.1 Released</title>
-    <published>2015-07-23T02:04:00Z</published>
-    <updated>2015-07-23T02:04:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2015/07/thinreports-generator-0_8_1-released/"/>
-    <content type="html">
-&lt;p&gt;Thinreports Generator 0.8.1 をリリースしました。&lt;/p&gt;
-
-&lt;p&gt;このリリースには以下の新機能が含まれています。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href="https://github.com/thinreports/thinreports-generator/pull/32"&gt;#32&lt;/a&gt; Add OPTIONAL feature for converting a pallete-based PNG w. transparency&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;Add OPTIONAL feature for converting a pallete-based PNG w. transparency&lt;/h3&gt;
-
-&lt;p&gt;この機能は、一部の透過 PNG の透明部分が正しく描画されない問題を解決するための機能です。
-具体的には、 &lt;a href="https://github.com/thinreports/thinreports-generator/pull/32"&gt;#32&lt;/a&gt; にあるような PNG8 形式の PNG が該当します。&lt;/p&gt;
-
-&lt;p&gt;なお、この機能は &lt;strong&gt;デフォルトでは無効&lt;/strong&gt; になっているため、有効にする場合は下記のように設定が必要です。&lt;/p&gt;
-
-&lt;div class="CodeRay"&gt;&lt;div class="code"&gt;&lt;pre&gt;&lt;code class="language-ruby"&gt;&lt;span class="constant"&gt;Thinreports&lt;/span&gt;.config.convert_palleted_transparency_png = &lt;span class="predefined-constant"&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;また &lt;a href="https://github.com/thinreports/thinreports-generator/pull/32"&gt;#32&lt;/a&gt; で説明している通り、
-この機能を有効にすると、PDF 生成で使用するすべての PNG 画像に対して、チェックと（該当するなら）変換処理が行われるため、
-機能が無効な状態に比べてパフォーマンスが低下する場合があります。特に、PNG 画像を多く使っている場合は注意が必要です。&lt;/p&gt;
-
-&lt;h3&gt;関連リンク&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-generator/pull/32"&gt;Pull Request #32&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md"&gt;CHANGELOG&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
 </feed>
