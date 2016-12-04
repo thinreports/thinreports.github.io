@@ -2,13 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2016-07-25T02:09:00Z</updated>
+  <updated>2016-12-04T14:13:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2016-12-04:/news/2016/12/thinreports-php-v0_8_1-released/</id>
+    <title type="html">Thinreports for PHP v0.8.1 released</title>
+    <published>2016-12-04T14:13:00Z</published>
+    <updated>2016-12-04T14:13:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2016/12/thinreports-php-v0_8_1-released/"/>
+    <content type="html">
+&lt;p&gt;Thinreports Generator の PHP 実装である &lt;a href="https://github.com/thinreports-php/thinreports-php"&gt;Thinreports for PHP&lt;/a&gt; の Bugfix v0.8.1 がリリースされました。&lt;/p&gt;
+
+&lt;p&gt;図形の枠線・背景色の描画に関するバグ修正が行われています。詳細は &lt;a href="https://github.com/thinreports-php/thinreports-php/releases/tag/0.8.1"&gt;リリースアナウンス&lt;/a&gt; をご覧ください。また、このリリースに関する &lt;a href="http://hidakatsuya.hateblo.jp/entry/2016/11/24/021420"&gt;作者のブログ&lt;/a&gt; もどうぞ。&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2016-07-25:/news/2016/07/thinreports-editor-0_9_1-released/</id>
     <title type="html">Thinreports Editor 0.9.1 Released</title>
@@ -147,27 +158,6 @@ Chromeウェブストアでインストールした最新版の Editor とは別
 &lt;p&gt;このリリースでは、Ruby の警告を解消するためのコードの改善を行っています。&lt;/p&gt;
 
 &lt;p&gt;詳細は &lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt; をご覧ください。&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2015-11-24:/news/2015/11/thinreports-php-0_8_0-released/</id>
-    <title type="html">Thinreports for PHP v0.8.0 released</title>
-    <published>2015-11-24T16:17:00Z</published>
-    <updated>2015-11-24T16:17:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2015/11/thinreports-php-0_8_0-released/"/>
-    <content type="html">
-&lt;p&gt;Thinreports Generator の PHP 実装である &lt;a href="https://github.com/thinreports-php/thinreports-php"&gt;Thinreports for PHP&lt;/a&gt; の最初の安定版 v0.8.0 がリリースされました。alpha1, alpha2 を経てのリリースとなります。&lt;/p&gt;
-
-&lt;p&gt;alpha2 に対して1つのバグ修正と2つの新機能が追加されています。詳細は &lt;a href="https://github.com/thinreports-php/thinreports-php/releases/tag/0.8.0"&gt;リリースアナウンス&lt;/a&gt; をご覧ください。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://packagist.org/packages/thinreports-php/thinreports-php#0.8.0"&gt;&lt;img src="images/thinreports-php-packagist.png" alt=""&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;関連リンク&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/thinreports-php/thinreports-php/releases/tag/0.8.0"&gt;0.8.0 リリースアナウンス&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/thinreports-php/thinreports-php#getting-started"&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/thinreports-php/thinreports-php/wiki/Quick-Reference"&gt;Quick Reference (WIP)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
   </entry>
 </feed>
 
