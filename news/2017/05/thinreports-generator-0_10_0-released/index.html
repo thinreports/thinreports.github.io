@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>公式メーリングリストを作成しました | Thinreports - オープンソース PDF 帳票ツール for Ruby, Rails</title>
+    <title>Thinreports Generator 0.10.0 released | Thinreports - オープンソース PDF 帳票ツール for Ruby, Rails</title>
     <link rel="alternate" type="application/atom+xml" title="Atom" href="/news/feed.xml">
-    <meta property="og:title" content="公式メーリングリストを作成しました | Thinreports">
+    <meta property="og:title" content="Thinreports Generator 0.10.0 released | Thinreports">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://www.thinreports.org/news/2014/07/official-mailing-list-now-ready/">
+<meta property="og:url" content="http://www.thinreports.org/news/2017/05/thinreports-generator-0_10_0-released/">
 <meta property="og:site_name" content="Thinreports - オープンソース PDF 帳票ツール for Ruby, Rails">
 <meta property="og:image" content="http://www.thinreports.org/assets/logos/thinreports-logo-v.png">
 
@@ -81,10 +81,10 @@
   <a href="/news/">News</a>
 </div>
 
-<h2>公式メーリングリストを作成しました</h2>
+<h2>Thinreports Generator 0.10.0 released</h2>
 
 <div class="meta">
-  2014.07.02
+  2017.05.10
   
     / written by <a class="twitter notranslate" href="https://twitter.com/hidakatsuya">@hidakatsuya</a>
   
@@ -92,21 +92,33 @@
 
 
             
-<p>Thinreports の公式フォーラムを廃止し、公式メーリングリストを作成しました。</p>
+<p>Thinreports Generator 0.10.0 をリリースしました。</p>
 
-<p>これまで、公式フォーラムとして Thinreports プロジェクトサイトのフォーラムを利用してきましたが、これを廃止し、新たに <a href="https://groups.google.com/forum/#!forum/thinreports">公式メーリングリスト</a> を作成しました。これまで Thinreports プロジェクトサイトのフォーラムをご利用いただいていた方は、大変お手数ですが、公式メーリングリストへの登録をお願いします。</p>
-
-<p>なお、廃止後も、当面の間は旧フォーラムを閲覧することができます。</p>
-
-<h3>関連情報</h3>
+<p>サポートする Ruby の変更と、いくつかの重要な内部的な変更が含まれています。</p>
 
 <ul>
-<li><a href="https://groups.google.com/forum/#!forum/thinreports">Thinreports Official Mailing List</a></li>
-</ul>
+<li>Thinreports requires Prawn 2.2</li>
+  <li>Dropped Ruby 1.9.3 and 2.0.0 support</li>
+  <li>Fixed a bug line-height of a text line-wrapped is broken</li>
+  <li>Remove deprecated top-module <code>ThinReports</code>
+</li>
+  <li>Remove <code>config.convert_palleted_transparency_png</code> option</li>
+  <li>Remove <code>config.generator.default</code> option</li>
+  <li>Deprecate <code>:report</code> and <code>:generator</code> argument of <code>Thinreports::Report.generate</code>
+</li>
+</ul><p>詳細は <a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md#0100">CHANGELOG</a> をご覧ください。</p>
+
+<h3>互換性</h3>
+
+<p>Editor 0.8.0 以降で作成・編集されたレイアウトファイルに対応しています。</p>
+
+<h3>Editor のリリースについて</h3>
+
+<p>Thinreports Editor 0.10.0 についても、後日リリースする予定です。</p>
           
 
 <div class="share">
-  <a href="https://twitter.com/share" class="twitter-share-button" data-text="News - 公式メーリングリストを作成しました | Thinreports" data-via="thinreports_org" data-hashtags="Thinreports">Tweet</a>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="News - Thinreports Generator 0.10.0 released | Thinreports" data-via="thinreports_org" data-hashtags="Thinreports">Tweet</a>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
 

@@ -2,13 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2016-12-04T14:13:00Z</updated>
+  <updated>2017-05-10T02:25:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2017-05-10:/news/2017/05/thinreports-generator-0_10_0-released/</id>
+    <title type="html">Thinreports Generator 0.10.0 released</title>
+    <published>2017-05-10T02:25:00Z</published>
+    <updated>2017-05-10T02:25:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2017/05/thinreports-generator-0_10_0-released/"/>
+    <content type="html">
+&lt;p&gt;Thinreports Generator 0.10.0 をリリースしました。&lt;/p&gt;
+
+&lt;p&gt;サポートする Ruby の変更と、いくつかの重要な内部的な変更が含まれています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Thinreports requires Prawn 2.2&lt;/li&gt;
+  &lt;li&gt;Dropped Ruby 1.9.3 and 2.0.0 support&lt;/li&gt;
+  &lt;li&gt;Fixed a bug line-height of a text line-wrapped is broken&lt;/li&gt;
+  &lt;li&gt;Remove deprecated top-module &lt;code&gt;ThinReports&lt;/code&gt;
+&lt;/li&gt;
+  &lt;li&gt;Remove &lt;code&gt;config.convert_palleted_transparency_png&lt;/code&gt; option&lt;/li&gt;
+  &lt;li&gt;Remove &lt;code&gt;config.generator.default&lt;/code&gt; option&lt;/li&gt;
+  &lt;li&gt;Deprecate &lt;code&gt;:report&lt;/code&gt; and &lt;code&gt;:generator&lt;/code&gt; argument of &lt;code&gt;Thinreports::Report.generate&lt;/code&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;詳細は &lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md#0100"&gt;CHANGELOG&lt;/a&gt; をご覧ください。&lt;/p&gt;
+
+&lt;h3&gt;互換性&lt;/h3&gt;
+
+&lt;p&gt;Editor 0.8.0 以降で作成・編集されたレイアウトファイルに対応しています。&lt;/p&gt;
+
+&lt;h3&gt;Editor のリリースについて&lt;/h3&gt;
+
+&lt;p&gt;Thinreports Editor 0.10.0 についても、後日リリースする予定です。&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2016-12-04:/news/2016/12/thinreports-php-v0_8_1-released/</id>
     <title type="html">Thinreports for PHP v0.8.1 released</title>
@@ -145,19 +176,6 @@ Chromeウェブストアでインストールした最新版の Editor とは別
 &lt;li&gt;&lt;a href="/download/"&gt;Download&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="/documentation/ja/getting-started/installation.html"&gt;Installation Guide&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2016-02-07:/news/2016/02/thinreports-generator-0_8_2-released/</id>
-    <title type="html">Thinreports Generator 0.8.2 released</title>
-    <published>2016-02-07T16:50:00Z</published>
-    <updated>2016-02-07T16:50:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2016/02/thinreports-generator-0_8_2-released/"/>
-    <content type="html">
-&lt;p&gt;Thinreports Generator 0.8.2 をリリースしました。&lt;/p&gt;
-
-&lt;p&gt;このリリースでは、Ruby の警告を解消するためのコードの改善を行っています。&lt;/p&gt;
-
-&lt;p&gt;詳細は &lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt; をご覧ください。&lt;/p&gt;</content>
   </entry>
 </feed>
 
