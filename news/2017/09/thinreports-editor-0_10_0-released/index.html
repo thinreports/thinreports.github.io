@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>公式メーリングリストを作成しました | Thinreports - オープンソース PDF 帳票ツール for Ruby, Rails</title>
+    <title>Thinreports Editor 0.10.0 released! | Thinreports - オープンソース PDF 帳票ツール for Ruby, Rails</title>
     <link rel="alternate" type="application/atom+xml" title="Atom" href="/news/feed.xml">
-    <meta property="og:title" content="公式メーリングリストを作成しました | Thinreports">
+    <meta property="og:title" content="Thinreports Editor 0.10.0 released! | Thinreports">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://www.thinreports.org/news/2014/07/official-mailing-list-now-ready/">
+<meta property="og:url" content="http://www.thinreports.org/news/2017/09/thinreports-editor-0_10_0-released/">
 <meta property="og:site_name" content="Thinreports - オープンソース PDF 帳票ツール for Ruby, Rails">
 <meta property="og:image" content="http://www.thinreports.org/assets/logos/thinreports-logo-v.png">
 
@@ -81,10 +81,10 @@
   <a href="/news/">News</a>
 </div>
 
-<h2>公式メーリングリストを作成しました</h2>
+<h2>Thinreports Editor 0.10.0 released!</h2>
 
 <div class="meta">
-  2014.07.02
+  2017.09.01
   
     / written by <a class="twitter notranslate" href="https://twitter.com/hidakatsuya">@hidakatsuya</a>
   
@@ -92,21 +92,45 @@
 
 
             
-<p>Thinreports の公式フォーラムを廃止し、公式メーリングリストを作成しました。</p>
+<p>Thinreports Editor 0.10.0 をリリースしました。</p>
 
-<p>これまで、公式フォーラムとして Thinreports プロジェクトサイトのフォーラムを利用してきましたが、これを廃止し、新たに <a href="https://groups.google.com/forum/#!forum/thinreports">公式メーリングリスト</a> を作成しました。これまで Thinreports プロジェクトサイトのフォーラムをご利用いただいていた方は、大変お手数ですが、公式メーリングリストへの登録をお願いします。</p>
-
-<p>なお、廃止後も、当面の間は旧フォーラムを閲覧することができます。</p>
-
-<h3>関連情報</h3>
+<p>Chromeアプリケーション終了に伴い、 <a href="https://electron.atom.io/">Electron</a> ベースのデスクトップアプリケーションへの移行を行いました。機能の追加・変更はありません。</p>
 
 <ul>
-<li><a href="https://groups.google.com/forum/#!forum/thinreports">Thinreports Official Mailing List</a></li>
+<li>Released as a Electron based application</li>
+  <li>Drop support for layout created/modified with Editor 0.8.0</li>
+</ul><p><img src="images/editor.png" alt="New Thinreports Editor"></p>
+
+<h3>Released as a Electron based application</h3>
+
+<p>Electron ベースのデスクトップアプリケーションとしてリリースしました。以下の OS をサポートします。
+括弧内の数字はテスト済みのバージョンです。</p>
+
+<ul>
+<li>macOS (10.12)</li>
+  <li>Ubuntu (16.04)</li>
+  <li>Windows (10)</li>
+</ul><p>インストール手順は <a href="http://www.thinreports.org/documentation/ja/getting-started/installation.html">インストールガイド</a> をご覧ください。</p>
+
+<p>なお、今後 Chromeアプリケーション版のリリースはありません。
+Chromeアプリケーション版(0.9.0)を使いたい場合は <a href="http://www.thinreports.org/documentation/ja/getting-started/installation.html">インストールガイド</a> を確認してください。</p>
+
+<h3>Drop support for layout created/modified with Editor 0.8.0</h3>
+
+<p>0.10.0 より、0.8.0 の Editor で作成/修正されたレイアウトファイルをサポートしません。
+0.8.0 のレイアウトファイルを開きたい場合は、Editor 0.9.0 で保存し直すか、
+<a href="https://github.com/hidakatsuya/thinreports-cli">thinreports-cli(Unofficial)</a> を使って 0.9.0 形式に変換することができます。</p>
+
+<h3>References</h3>
+
+<ul>
+<li><a href="https://github.com/thinreports/thinreports-editor/blob/master/CHANGELOG.md">CHANGELOG</a></li>
+  <li><a href="http://www.thinreports.org/documentation/en/getting-started/installation.html">Installation Guide</a></li>
 </ul>
           
 
 <div class="share">
-  <a href="https://twitter.com/share" class="twitter-share-button" data-text="News - 公式メーリングリストを作成しました | Thinreports" data-via="thinreports_org" data-hashtags="Thinreports">Tweet</a>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="News - Thinreports Editor 0.10.0 released! | Thinreports" data-via="thinreports_org" data-hashtags="Thinreports">Tweet</a>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
 
