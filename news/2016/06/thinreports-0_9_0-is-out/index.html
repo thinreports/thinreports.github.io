@@ -97,12 +97,14 @@
 <p>機能の追加はありませんが、内部的に大きな変更と、古い <code>.tlf</code> ファイルのサポート終了など、いくつかの注意が必要な変更が含まれます。</p>
 
 <ul>
-<li>(Editor/Generator) New format for layout file</li>
+  <li>(Editor/Generator) New format for layout file</li>
   <li>(Editor/Generator) Drop support for layout file created with Editor v0.7 or lower</li>
   <li>(Editor) Release only ChromeApp ver</li>
   <li>(Generator) Fixed a bug</li>
   <li>(Generator) Remove some deprecated methods</li>
-</ul><p>詳しくは、それぞれの CHANGELOG <a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md">Generator</a> / <a href="https://github.com/thinreports/thinreports-editor/blob/master/doc/CHANGELOG.md">Editor</a> をご覧ください。</p>
+</ul>
+
+<p>詳しくは、それぞれの CHANGELOG <a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md">Generator</a> / <a href="https://github.com/thinreports/thinreports-editor/blob/master/doc/CHANGELOG.md">Editor</a> をご覧ください。</p>
 
 <h3>New format for layout file</h3>
 
@@ -112,32 +114,38 @@
 <h4>Support Policy</h4>
 
 <ol>
-<li>Editor v0.8 以前で保存された古い形式 (Old format)</li>
+  <li>Editor v0.8 以前で保存された古い形式 (Old format)</li>
   <li>Editor v0.9 以降で保存された新しい形式 (New format)</li>
-</ol><table>
-<thead><tr>
-<th>Thinreports</th>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th>Thinreports</th>
       <th style="text-align: center">1-Old format</th>
       <th style="text-align: center">2-New format</th>
-    </tr></thead>
-<tbody>
-<tr>
-<td>&lt;= v0.8</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>&lt;= v0.8</td>
       <td style="text-align: center">Yes</td>
       <td style="text-align: center">No</td>
     </tr>
-<tr>
-<td>v0.9 and v1.0</td>
+    <tr>
+      <td>v0.9 and v1.0</td>
       <td style="text-align: center">Yes</td>
       <td style="text-align: center">Yes</td>
     </tr>
-<tr>
-<td>&gt;= v1.1</td>
+    <tr>
+      <td>&gt;= v1.1</td>
       <td style="text-align: center">No</td>
       <td style="text-align: center">Yes</td>
     </tr>
-</tbody>
-</table><h4>How to upgrade to new format</h4>
+  </tbody>
+</table>
+
+<h4>How to upgrade to new format</h4>
 
 <p>v0.9 or v1.0 の Editor を使って古い形式の <code>.tlf</code> ファイルを開き、
 何らかの変更（図形を動かして元の位置に戻すだけでも良い）を加えて保存することで新しい形式へ変換することができます。</p>
@@ -166,9 +174,10 @@ Chromeウェブストアでインストールした最新版の Editor とは別
 <h3>関連リンク</h3>
 
 <ul>
-<li><a href="/download/">Download</a></li>
+  <li><a href="/download/">Download</a></li>
   <li><a href="/documentation/ja/getting-started/installation.html">Installation Guide</a></li>
 </ul>
+
           
 
 <div class="share">

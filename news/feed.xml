@@ -21,20 +21,24 @@
 &lt;p&gt;Chromeアプリケーション終了に伴い、 &lt;a href="https://electron.atom.io/"&gt;Electron&lt;/a&gt; ベースのデスクトップアプリケーションへの移行を行いました。機能の追加・変更はありません。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Released as a Electron based application&lt;/li&gt;
+  &lt;li&gt;Released as an Electron based application&lt;/li&gt;
   &lt;li&gt;Drop support for layout created/modified with Editor 0.8.0&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;img src="images/editor.png" alt="New Thinreports Editor"&gt;&lt;/p&gt;
+&lt;/ul&gt;
 
-&lt;h3&gt;Released as a Electron based application&lt;/h3&gt;
+&lt;p&gt;&lt;img src="images/editor.png" alt="New Thinreports Editor"&gt;&lt;/p&gt;
+
+&lt;h3&gt;Released as an Electron based application&lt;/h3&gt;
 
 &lt;p&gt;Electron ベースのデスクトップアプリケーションとしてリリースしました。以下の OS をサポートします。
 括弧内の数字はテスト済みのバージョンです。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;macOS (10.12)&lt;/li&gt;
+  &lt;li&gt;macOS (10.12)&lt;/li&gt;
   &lt;li&gt;Ubuntu (16.04)&lt;/li&gt;
   &lt;li&gt;Windows (10)&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;インストール手順は &lt;a href="http://www.thinreports.org/documentation/ja/getting-started/installation.html"&gt;インストールガイド&lt;/a&gt; をご覧ください。&lt;/p&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;インストール手順は &lt;a href="http://www.thinreports.org/documentation/ja/getting-started/installation.html"&gt;インストールガイド&lt;/a&gt; をご覧ください。&lt;/p&gt;
 
 &lt;p&gt;なお、今後 Chromeアプリケーション版のリリースはありません。
 Chromeアプリケーション版(0.9.0)を使いたい場合は &lt;a href="http://www.thinreports.org/documentation/ja/getting-started/installation.html"&gt;インストールガイド&lt;/a&gt; を確認してください。&lt;/p&gt;
@@ -48,9 +52,10 @@ Chromeアプリケーション版(0.9.0)を使いたい場合は &lt;a href="htt
 &lt;h3&gt;References&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/CHANGELOG.md"&gt;CHANGELOG&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/CHANGELOG.md"&gt;CHANGELOG&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.thinreports.org/documentation/en/getting-started/installation.html"&gt;Installation Guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+</content>
   </entry>
   <entry>
     <id>tag:www.thinreports.org,2017-05-10:/news/2017/05/thinreports-generator-0_10_0-released/</id>
@@ -64,7 +69,7 @@ Chromeアプリケーション版(0.9.0)を使いたい場合は &lt;a href="htt
 &lt;p&gt;サポートする Ruby の変更と、いくつかの重要な内部的な変更が含まれています。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Thinreports requires Prawn 2.2&lt;/li&gt;
+  &lt;li&gt;Thinreports requires Prawn 2.2&lt;/li&gt;
   &lt;li&gt;Dropped Ruby 1.9.3 and 2.0.0 support&lt;/li&gt;
   &lt;li&gt;Fixed a bug line-height of a text line-wrapped is broken&lt;/li&gt;
   &lt;li&gt;Remove deprecated top-module &lt;code&gt;ThinReports&lt;/code&gt;
@@ -73,7 +78,9 @@ Chromeアプリケーション版(0.9.0)を使いたい場合は &lt;a href="htt
   &lt;li&gt;Remove &lt;code&gt;config.generator.default&lt;/code&gt; option&lt;/li&gt;
   &lt;li&gt;Deprecate &lt;code&gt;:report&lt;/code&gt; and &lt;code&gt;:generator&lt;/code&gt; argument of &lt;code&gt;Thinreports::Report.generate&lt;/code&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;詳細は &lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md#0100"&gt;CHANGELOG&lt;/a&gt; をご覧ください。&lt;/p&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;詳細は &lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md#0100"&gt;CHANGELOG&lt;/a&gt; をご覧ください。&lt;/p&gt;
 
 &lt;h3&gt;互換性&lt;/h3&gt;
 
@@ -81,7 +88,8 @@ Chromeアプリケーション版(0.9.0)を使いたい場合は &lt;a href="htt
 
 &lt;h3&gt;Editor のリリースについて&lt;/h3&gt;
 
-&lt;p&gt;Thinreports Editor 0.10.0 についても、後日リリースする予定です。&lt;/p&gt;</content>
+&lt;p&gt;Thinreports Editor 0.10.0 についても、後日リリースする予定です。&lt;/p&gt;
+</content>
   </entry>
   <entry>
     <id>tag:www.thinreports.org,2016-12-04:/news/2016/12/thinreports-php-v0_8_1-released/</id>
@@ -92,7 +100,8 @@ Chromeアプリケーション版(0.9.0)を使いたい場合は &lt;a href="htt
     <content type="html">
 &lt;p&gt;Thinreports Generator の PHP 実装である &lt;a href="https://github.com/thinreports-php/thinreports-php"&gt;Thinreports for PHP&lt;/a&gt; の Bugfix v0.8.1 がリリースされました。&lt;/p&gt;
 
-&lt;p&gt;図形の枠線・背景色の描画に関するバグ修正が行われています。詳細は &lt;a href="https://github.com/thinreports-php/thinreports-php/releases/tag/0.8.1"&gt;リリースアナウンス&lt;/a&gt; をご覧ください。また、このリリースに関する &lt;a href="http://hidakatsuya.hateblo.jp/entry/2016/11/24/021420"&gt;作者のブログ&lt;/a&gt; もどうぞ。&lt;/p&gt;</content>
+&lt;p&gt;図形の枠線・背景色の描画に関するバグ修正が行われています。詳細は &lt;a href="https://github.com/thinreports-php/thinreports-php/releases/tag/0.8.1"&gt;リリースアナウンス&lt;/a&gt; をご覧ください。また、このリリースに関する &lt;a href="http://hidakatsuya.hateblo.jp/entry/2016/11/24/021420"&gt;作者のブログ&lt;/a&gt; もどうぞ。&lt;/p&gt;
+</content>
   </entry>
   <entry>
     <id>tag:www.thinreports.org,2016-07-25:/news/2016/07/thinreports-editor-0_9_1-released/</id>
@@ -106,14 +115,17 @@ Chromeアプリケーション版(0.9.0)を使いたい場合は &lt;a href="htt
 &lt;p&gt;Editor 0.9.0 でテンプレートファイルを開いた時、リスト内の罫線が正しく描画されない問題を修正しています。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Fixed: Broken line rendering in list &lt;a href="https://github.com/thinreports/thinreports-editor/issues/60"&gt;#60&lt;/a&gt;
+  &lt;li&gt;Fixed: Broken line rendering in list &lt;a href="https://github.com/thinreports/thinreports-editor/issues/60"&gt;#60&lt;/a&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;この問題の詳細は下記をご覧ください。&lt;/p&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;この問題の詳細は下記をご覧ください。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://groups.google.com/forum/?hl=ja#!topic/thinreports/KMz111C-xjM"&gt;Thinreports Editor 0.9.0 で古い形式のTLFファイルを開くと、レイアウトが崩れてしまうことがある&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://groups.google.com/forum/?hl=ja#!topic/thinreports/KMz111C-xjM"&gt;Thinreports Editor 0.9.0 で古い形式のTLFファイルを開くと、レイアウトが崩れてしまうことがある&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://groups.google.com/forum/#!msg/thinreports/BcKlJVlXtFY/ZrqymTb1BAAJ"&gt;ThinReports Editor 0.9.0 縦線の幅が勝ってに増えていく&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+</content>
   </entry>
   <entry>
     <id>tag:www.thinreports.org,2016-06-03:/news/2016/06/thinreports-generator-0_9_1-released/</id>
@@ -127,13 +139,16 @@ Chromeアプリケーション版(0.9.0)を使いたい場合は &lt;a href="htt
 &lt;p&gt;このリリースで、古い形式の &lt;code&gt;.tlf&lt;/code&gt; ファイルを読み込んだ場合の問題をいくつか修正しています。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Fixed #66 an error occurred when render list &lt;a href="https://github.com/thinreports/thinreports-generator/pull/68"&gt;#68&lt;/a&gt;
+  &lt;li&gt;Fixed #66 an error occurred when render list &lt;a href="https://github.com/thinreports/thinreports-generator/pull/68"&gt;#68&lt;/a&gt;
 &lt;/li&gt;
   &lt;li&gt;Fixed bug that line-height of text-block is always set to 0 &lt;a href="https://github.com/thinreports/thinreports-generator/pull/68"&gt;#68&lt;/a&gt;
 &lt;/li&gt;
   &lt;li&gt;Fixed a referenced text-block not rendered &lt;a href="https://github.com/thinreports/thinreports-generator/pull/68"&gt;#68&lt;/a&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;なお、 Editor のリリースはありません。&lt;/p&gt;</content>
+&lt;/ul&gt;
+
+&lt;p&gt;なお、 Editor のリリースはありません。&lt;/p&gt;
+</content>
   </entry>
 </feed>
 
