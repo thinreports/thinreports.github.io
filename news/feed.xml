@@ -2,13 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2017-09-01T01:00:00Z</updated>
+  <updated>2017-10-01T04:22:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2017-10-01:/news/2017/10/thinreports-generator-0_10_1-released/</id>
+    <title type="html">Thinreports Generator 0.10.1 released</title>
+    <published>2017-10-01T04:22:00Z</published>
+    <updated>2017-10-01T04:22:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2017/10/thinreports-generator-0_10_1-released/"/>
+    <content type="html">
+&lt;p&gt;Thinreports Generator 0.10.1 をリリースしました。&lt;/p&gt;
+
+&lt;p&gt;1件の Bugfix と内部的な改善が含まれています。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fixed a bug that an error occurred on page break in other list when there is a list with page-break disabled &lt;a href="https://github.com/thinreports/thinreports-generator/pull/87"&gt;#87&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;詳細は &lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md#0101"&gt;CHANGELOG&lt;/a&gt; をご覧ください。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2017-09-01:/news/2017/09/thinreports-editor-0_10_0-released/</id>
     <title type="html">Thinreports Editor 0.10.0 released!</title>
@@ -125,29 +144,6 @@ Chromeアプリケーション版(0.9.0)を使いたい場合は &lt;a href="htt
   &lt;li&gt;&lt;a href="https://groups.google.com/forum/?hl=ja#!topic/thinreports/KMz111C-xjM"&gt;Thinreports Editor 0.9.0 で古い形式のTLFファイルを開くと、レイアウトが崩れてしまうことがある&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://groups.google.com/forum/#!msg/thinreports/BcKlJVlXtFY/ZrqymTb1BAAJ"&gt;ThinReports Editor 0.9.0 縦線の幅が勝ってに増えていく&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2016-06-03:/news/2016/06/thinreports-generator-0_9_1-released/</id>
-    <title type="html">Thinreports Generator 0.9.1 released</title>
-    <published>2016-06-03T20:23:00Z</published>
-    <updated>2016-06-03T20:23:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2016/06/thinreports-generator-0_9_1-released/"/>
-    <content type="html">
-&lt;p&gt;Thinreports Generator 0.9.1 をリリースしました。&lt;/p&gt;
-
-&lt;p&gt;このリリースで、古い形式の &lt;code&gt;.tlf&lt;/code&gt; ファイルを読み込んだ場合の問題をいくつか修正しています。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Fixed #66 an error occurred when render list &lt;a href="https://github.com/thinreports/thinreports-generator/pull/68"&gt;#68&lt;/a&gt;
-&lt;/li&gt;
-  &lt;li&gt;Fixed bug that line-height of text-block is always set to 0 &lt;a href="https://github.com/thinreports/thinreports-generator/pull/68"&gt;#68&lt;/a&gt;
-&lt;/li&gt;
-  &lt;li&gt;Fixed a referenced text-block not rendered &lt;a href="https://github.com/thinreports/thinreports-generator/pull/68"&gt;#68&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;なお、 Editor のリリースはありません。&lt;/p&gt;
 </content>
   </entry>
 </feed>
