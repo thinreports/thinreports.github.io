@@ -2,13 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2018-03-10T23:22:00Z</updated>
+  <updated>2018-11-18T03:31:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2018-11-18:/news/2018/11/thinreports-generator-0_10_3-released/</id>
+    <title type="html">Thinreports Generator 0.10.3 released</title>
+    <published>2018-11-18T03:31:00Z</published>
+    <updated>2018-11-18T03:31:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2018/11/thinreports-generator-0_10_3-released/"/>
+    <content type="html">
+&lt;p&gt;Thinreports Generator 0.10.3 をリリースしました。&lt;/p&gt;
+
+&lt;p&gt;1件の Bugfix が含まれています。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fixed: corner-radius of Rect is not applied correctly &lt;a href="https://github.com/thinreports/thinreports-generator/pull/93"&gt;#93&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;詳細は &lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md"&gt;CHANGELOG&lt;/a&gt; をご覧ください。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2018-03-10:/news/2018/03/thinreports-generator-0_10_2-released/</id>
     <title type="html">Thinreports Generator 0.10.2 released</title>
@@ -127,18 +146,6 @@ Chromeアプリケーション版(0.9.0)を使いたい場合は &lt;a href="htt
 &lt;h3&gt;Editor のリリースについて&lt;/h3&gt;
 
 &lt;p&gt;Thinreports Editor 0.10.0 についても、後日リリースする予定です。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2016-12-04:/news/2016/12/thinreports-php-v0_8_1-released/</id>
-    <title type="html">Thinreports for PHP v0.8.1 released</title>
-    <published>2016-12-04T14:13:00Z</published>
-    <updated>2016-12-04T14:13:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2016/12/thinreports-php-v0_8_1-released/"/>
-    <content type="html">
-&lt;p&gt;Thinreports Generator の PHP 実装である &lt;a href="https://github.com/thinreports-php/thinreports-php"&gt;Thinreports for PHP&lt;/a&gt; の Bugfix v0.8.1 がリリースされました。&lt;/p&gt;
-
-&lt;p&gt;図形の枠線・背景色の描画に関するバグ修正が行われています。詳細は &lt;a href="https://github.com/thinreports-php/thinreports-php/releases/tag/0.8.1"&gt;リリースアナウンス&lt;/a&gt; をご覧ください。また、このリリースに関する &lt;a href="http://hidakatsuya.hateblo.jp/entry/2016/11/24/021420"&gt;作者のブログ&lt;/a&gt; もどうぞ。&lt;/p&gt;
 </content>
   </entry>
 </feed>
