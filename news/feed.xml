@@ -20,11 +20,11 @@
 
 &lt;p&gt;このリリースには、いくつかの非互換の変更点とバグ修正が含まれています。&lt;/p&gt;
 
-&lt;h2&gt;Editor&lt;/h2&gt;
+&lt;h3&gt;Editor&lt;/h3&gt;
 
 &lt;p&gt;変更内容は &lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/CHANGELOG.md#0110"&gt;CHANGELOG.md&lt;/a&gt; を参照してください。&lt;/p&gt;
 
-&lt;h2&gt;Generator&lt;/h2&gt;
+&lt;h3&gt;Generator&lt;/h3&gt;
 
 &lt;p&gt;変更内容は &lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md#0110"&gt;CHANGELOG.md&lt;/a&gt; を参照してください。&lt;/p&gt;
 </content>
