@@ -2,13 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.thinreports.org/</id>
   <title>Thinreports News</title>
-  <updated>2020-06-20T17:09:00Z</updated>
+  <updated>2021-01-16T13:32:00Z</updated>
   <link rel="alternate" href="http://www.thinreports.org/"/>
   <link rel="self" href="http://www.thinreports.org/news/feed.xml"/>
   <author>
     <name>Thinreports.org</name>
     <uri>http://www.thinreports.org</uri>
   </author>
+  <entry>
+    <id>tag:www.thinreports.org,2021-01-16:/news/2021/01/thinreports-v0_12_0-released/</id>
+    <title type="html">Thinreports v0.12.0 released</title>
+    <published>2021-01-16T13:32:00Z</published>
+    <updated>2021-01-16T13:32:00Z</updated>
+    <link rel="alternate" href="http://www.thinreports.org/news/2021/01/thinreports-v0_12_0-released/"/>
+    <content type="html">
+&lt;p&gt;Thinreports v0.12.0 をリリースしました。&lt;/p&gt;
+
+&lt;h3&gt;Editor&lt;/h3&gt;
+
+&lt;p&gt;一つの新機能の追加と内部ライブラリの更新を行いました。
+詳細は、&lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt; を参照してください。&lt;/p&gt;
+
+&lt;h3&gt;Generator&lt;/h3&gt;
+
+&lt;p&gt;主に、Ruby 3.0.0 及び PDFライブラリ &lt;a href="https://github.com/prawnpdf/prawn"&gt;Prawn&lt;/a&gt; v2.3, v2.4 のサポートを追加しました。
+詳細は &lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt; を参照してください。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:www.thinreports.org,2020-06-20:/news/2020/06/thinreports-v0_11_0-released/</id>
     <title type="html">Thinreports v0.11.0 Released</title>
@@ -84,54 +104,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;詳細は &lt;a href="https://github.com/thinreports/thinreports-generator/blob/master/CHANGELOG.md#0101"&gt;CHANGELOG&lt;/a&gt; をご覧ください。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:www.thinreports.org,2017-09-01:/news/2017/09/thinreports-editor-0_10_0-released/</id>
-    <title type="html">Thinreports Editor 0.10.0 released!</title>
-    <published>2017-09-01T01:00:00Z</published>
-    <updated>2017-09-01T01:00:00Z</updated>
-    <link rel="alternate" href="http://www.thinreports.org/news/2017/09/thinreports-editor-0_10_0-released/"/>
-    <content type="html">
-&lt;p&gt;Thinreports Editor 0.10.0 をリリースしました。&lt;/p&gt;
-
-&lt;p&gt;Chromeアプリケーション終了に伴い、 &lt;a href="https://electron.atom.io/"&gt;Electron&lt;/a&gt; ベースのデスクトップアプリケーションへの移行を行いました。機能の追加・変更はありません。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Released as an Electron based application&lt;/li&gt;
-  &lt;li&gt;Drop support for layout created/modified with Editor 0.8.0&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src="images/editor.png" alt="New Thinreports Editor"&gt;&lt;/p&gt;
-
-&lt;h3&gt;Released as an Electron based application&lt;/h3&gt;
-
-&lt;p&gt;Electron ベースのデスクトップアプリケーションとしてリリースしました。以下の OS をサポートします。
-括弧内の数字はテスト済みのバージョンです。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;macOS (10.12)&lt;/li&gt;
-  &lt;li&gt;Ubuntu (16.04)&lt;/li&gt;
-  &lt;li&gt;Windows (10)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;インストール手順は &lt;a href="http://www.thinreports.org/documentation/ja/getting-started/installation.html"&gt;インストールガイド&lt;/a&gt; をご覧ください。&lt;/p&gt;
-
-&lt;p&gt;なお、今後 Chromeアプリケーション版のリリースはありません。
-Chromeアプリケーション版(0.9.0)を使いたい場合は &lt;a href="http://www.thinreports.org/documentation/ja/getting-started/installation.html"&gt;インストールガイド&lt;/a&gt; を確認してください。&lt;/p&gt;
-
-&lt;h3&gt;Drop support for layout created/modified with Editor 0.8.0&lt;/h3&gt;
-
-&lt;p&gt;0.10.0 より、0.8.0 の Editor で作成/修正されたレイアウトファイルをサポートしません。
-0.8.0 のレイアウトファイルを開きたい場合は、Editor 0.9.0 で保存し直すか、
-&lt;a href="https://github.com/hidakatsuya/thinreports-cli"&gt;thinreports-cli(Unofficial)&lt;/a&gt; を使って 0.9.0 形式に変換することができます。&lt;/p&gt;
-
-&lt;h3&gt;References&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/thinreports/thinreports-editor/blob/master/CHANGELOG.md"&gt;CHANGELOG&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.thinreports.org/documentation/en/getting-started/installation.html"&gt;Installation Guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
 </feed>
