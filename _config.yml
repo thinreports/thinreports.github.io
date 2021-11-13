@@ -1,0 +1,21 @@
+title: Thinreports
+description: A PDF generation tools for Ruby
+
+baseurl: ""
+url: "https://www.thinreports.org"
+
+google_analytics: UA-53873059-1
+
+remote-theme: pages-themes/primer
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jemoji
+
+markdown: CommonMarkGhPages
+commonmark:
+  extensions:
+    - autolink
+    - strikethrough
+    - table
