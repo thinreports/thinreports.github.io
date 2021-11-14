@@ -1,6 +1,0 @@
-
-User-agent: *
-Allow: /
-
-Sitemap: http://www.thinreports.org/sitemap.xml
-Sitemap: http://www.thinreports.org/documentation/sitemap.xml
