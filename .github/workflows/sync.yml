@@ -15,7 +15,7 @@ jobs:
     - name: Update
       run: node .github/workflows/update-index.js
 
-    - run: cat index.md
+    # - run: cat index.md
 
     - name: Deploy if changed
       run: |
@@ -24,4 +24,6 @@ jobs:
           git config user.email github-actions@github.com
           git commit -m "Sync index.md" index.md
           git push
+        else
+          echo "There are no changes."
         fi
