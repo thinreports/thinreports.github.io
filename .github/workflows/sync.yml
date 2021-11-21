@@ -1,0 +1,27 @@
+name: Synchronize index.md with README.md in thinreports/thinreports
+
+on:
+#  schedule:
+#    - cron: '0 */1 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Update
+      run: node .github/workflows/update-index.js
+
+    - run: cat index.md
+
+    - name: Deploy if changed
+      run: |
+        if ! git diff --exit-code --quiet index.md
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git commit -m "Sync index.md" index.md
+          git push
+        fi
