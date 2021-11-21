@@ -1,8 +1,8 @@
 name: Synchronize index.md with README.md in thinreports/thinreports
 
 on:
-#  schedule:
-#    - cron: '0 */1 * * *'
+  schedule:
+    - cron: '0 */1 * * *'
   workflow_dispatch:
 
 jobs:
