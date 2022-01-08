@@ -11,6 +11,10 @@ redirect_from:
   - /logo/
   - /news/
   - /news/2021/01/thinreports-v0_12_0-released/
+  - /documentation/ja/getting-started/installation.html
+  - /documentation/ja/getting-started/quickstart.html
+  - /documentation/en/getting-started/installation.html
+  - /documentation/en/getting-started/quickstart.html
 ---
 
 <div align="center">
