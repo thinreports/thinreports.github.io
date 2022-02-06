@@ -15,6 +15,9 @@ redirect_from:
   - /documentation/ja/getting-started/quickstart.html
   - /documentation/en/getting-started/installation.html
   - /documentation/en/getting-started/quickstart.html
+  - /documentation/getting-started/quickstart.html
+  - /documentation/ja/
+  - /documentation/en/
 ---
 
 <div align="center">
